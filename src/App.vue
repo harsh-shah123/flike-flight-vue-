@@ -1,11 +1,14 @@
 <template>
-  <Home />
+  <!-- <Home /> -->
+  <!-- <router-link to="/">Home </router-link>   -->
+  <!-- <Result /> -->
+   <router-view></router-view>
 </template>
 
 
 <script setup>
 import Home from './components/Home.vue'
-
+import Result from './components/Result.vue'
 </script>
 
 
