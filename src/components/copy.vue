@@ -3,88 +3,117 @@
 
 
 
-<header class="w-full">
-    <!-- Top Header -->
-    <section>
-        <div class="p-4 lg:p-10 pt-4 pb-2 flex justify-between items-center">
-            <div>
-                <img src="../assets/Symbols.jpg" alt="Symbols" class="max-w-full h-auto">
-            </div>
-            <div class="flex gap-2 lg:gap-4 items-center">
-                <router-link to="/" class="text-sm lg:text-base">Home</router-link>
-                <router-link to="/Result" class="text-sm lg:text-base">Result</router-link>
-                <a href="#" class="text-sm lg:text-base">Hotels</a>
-                <a href="#" class="text-sm lg:text-base">Offers</a>
-                <div class="gap-2">
-                    <img src="../assets/notification-bell.png" alt="notification" class="max-w-full h-auto">
-                </div>
+    <header class="w-[100%]">
+        <!-- Top Header -->
+        <section>
+
+            <div class=" p-10 pt-4 pb-2 flex justify-between ">
                 <div>
-                    <img src="../assets/profile picture.jpg" alt="profile" class="rounded-full max-w-full h-auto">
+                    <img src="../assets/Symbols.jpg" alt="Symbols">
+                </div>
+                <div class="flex gap-4">
+
+                    <router-link to="/">
+                        Home
+                    </router-link>
+                    <router-link to="/Result">Result</router-link>
+                    <a href="#">Hotels</a>
+                    <a href="#">Offers</a>
+                    <div class="gap-2">
+
+                        <img src="../assets/notification-bell.png" alt="notification">
+                    </div>
+                    <div>
+
+                        <img src="../assets/profile picture.jpg" alt="profile">
+                    </div>
+
+
                 </div>
             </div>
-        </div>
-    </section>
-</header>
+
+        </section>
+    </header>
 
     <!-- Search Section -->
     <section>
-    <div class="banner-gradient">
-        <div class="banner">
-            <!-- Search for flight -->
-            <div class="flex flex-col justify-center px-5 lg:px-20 pt-7 h-3/4 font-mono font-extrabold text-white">
-                <p class="text-3xl lg:text-5xl">
-                    Where are you off to?
-                </p>
+        <div class="banner-gradient ">
+            <div class="banner">
 
-                <!-- Search form -->
-                <div class="mt-4 bg-white w-full lg:w-fit p-4 pb-3 rounded-lg text-center">
-                    <div class="flex flex-col lg:flex-row items-center lg:justify-center text-center">
-                        <div class="relative mb-3 pt-2 lg:ms-3" data-twe-input-wrapper-init>
-                            <input type="text"
-                                class="peer block min-h-[auto] border-2 w-full lg:w-[270px] border-gray-700 px-3 py-[0.32rem] text-gray-700"
-                                readonly value="Singapore (SIN)" />
-                            <label
-                                class="pointer-events-none absolute left-3 top-[-0.3rem] mb-0 max-w-[90%] truncate bg-white px-1 text-neutral-500">
-                                Departure
-                            </label>
-                        </div>
+                <!-- search for flight -->
 
-                        <div class="relative mb-3 pt-2 lg:ms-3" data-twe-input-wrapper-init>
-                            <input type="text"
-                                class="peer block min-h-[auto] border-2 w-full lg:w-[270px] border-gray-700 px-3 py-[0.32rem] text-gray-700"
-                                readonly value="Los Angeles (LA)" />
-                            <label
-                                class="pointer-events-none absolute left-3 top-[-0.3rem] mb-0 max-w-[90%] truncate bg-white px-1 text-neutral-500">
-                                Arrival
-                            </label>
-                        </div>
+                <div class="flex flex-col justify-center ps-20 pe-20  pt-7 h-3/4 font-mono font-extrabold text-white">
+                    <p class="text-5xl  ">
 
-                        <div class="relative mb-3 pt-2 lg:ms-3 w-full lg:w-auto">
-                            <input type="text"
-                                class="peer block min-h-[auto] border-2 w-full lg:w-[270px] border-gray-700 px-3 py-[0.32rem] text-gray-700"
-                                readonly value="01/05/2022" />
-                            <label
-                                class="pointer-events-none absolute left-3 top-[-0.3rem] mb-0 max-w-[90%] truncate bg-white px-1 text-neutral-500">
-                                Date
-                            </label>
-                            <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
-                                <i class="fa-solid fa-calendar-days h-5 w-5 text-gray-500"></i>
+                        Where are you off too?
+                    </p>
+
+                    </ <!-- serach form -->
+                    <div class="mt-4 bg-white w-fit p-4 pb-3 rounded-lg text-center jus">
+
+
+                        <div class="flex flex-row ms-3 text-center ">
+
+                            <div class="relative mb-3 pt-2 " data-twe-input-wrapper-init>
+                                <input type="text"
+                                    class="peer block min-h-[auto] border-2 w-[270px]  border-gray-700 ms-2 px-3 py-[0.32rem]  text-gray-700	    "
+                                    readonly value="Singapore (SIN)" />
+                                <label
+                                    class="pointer-events-none absolute left-3 top-[-0.3rem] mb-0 max-w-[90%] origin-[0_0] truncate bg-white px-1  text-neutral-500  ">Depature
+                                </label>
+
                             </div>
-                        </div>
+                            <div>
+                                <div class="relative mb-3 pt-2" data-twe-input-wrapper-init>
+                                    <input type="text"
+                                        class="peer block min-h-[auto] border-2 w-[270px] border-gray-700 ms-2 px-3 py-[0.32rem]  text-gray-700	    "
+                                        readonly value="Los Angeles (LA)" />
+                                    <label
+                                        class="pointer-events-none absolute left-3 top-[-0.3rem] mb-0 max-w-[90%] origin-[0_0] truncate bg-white px-1  text-neutral-500  ">Arival
+                                    </label>
 
-                        <div class="ps-1 pt-1 lg:ms-3">
-                            <button type="button"
-                                class="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center me-2 mb-2 mt-1">
-                                SEARCH FLIGHTS
-                            </button>
+                                </div>
+
+                            </div>
+                            <div>
+
+                                <div class="relative mb-3 pt-2 w-full max-w-xs">
+                                    <!-- Label for the Date Input -->
+
+                                    <input type="text"
+                                        class="peer block min-h-[auto] border-2 w-[270px] border-gray-700 ms-2 px-3 py-[0.32rem]  text-gray-700	    "
+                                        readonly value="01/05/2022" />
+                                    <label
+                                        class="pointer-events-none absolute left-3 top-[-0.3rem] mb-0 max-w-[90%] origin-[0_0] truncate bg-white px-1  text-neutral-500  ">Date
+                                    </label>
+                                    <!-- Calendar Icon Positioned Inside the Input -->
+                                    <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
+                                        <i class="fa-duotone fa-solid fa-calendar-days h-5 w-5 pt-2 text-gray-500"></i>
+
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="ps-1 pt-1 ">
+
+                                <button type="button"
+                                    class="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 me-2 mb-2 mt-1">
+                                    SEARCH FLIGHTS
+                                </button>
+                            </div>
+
+
                         </div>
                     </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
 
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
 
     <!-- Search filters -->
     <section>
@@ -775,74 +804,121 @@
         
     </section>
     <footer>
-    <div class="footersection">
-        <div class="flex flex-col items-center p-5 md:p-10 gap-5 md:gap-8">
-            <div class="flex flex-col items-center gap-2">
-                <div class="text-blue-900 font-semibold">
-                    <p>SUBSCRIBE TO OUR NEWSLETTER</p>
+        <div class="footersection">
+            <div class="flex flex-col items-center p-[20px] gap-[30px]">
+                <div class="flex flex-col items-center p-0 gap-[7px]">
+                    <div class="text-blue-900 font-semibold">
+                        <P>
+
+                            SUBSCRIBE TO OUR NEWSLETTER
+                        </P>
+                    </div>
+                    <div>
+                        <p class="text-4xl">Get weekly updates</p>
+
+                    </div>
+
+
+
+                </div>
+                <div class="box-border flex flex-col flex-start gap-[17px] bg-whiteb pt-[28px] pb-[28px]
+                ps-[30px] pe-[30px] ">
+                    <div class="flex flex-col flex-start p-0 gap-[6px]">
+                        <p>Fill in your details to join the party!</p>
+                    </div>
+                    <div>
+                        <input type="text" placeholder="Your name " class="p-3 border-2 w-[300px]">
+                    </div>
+                    <div>
+
+                        <input type="text" placeholder="Email Address" class="p-3  border-2    w-[300px]">
+                    </div>
+                    <div>
+                        <button type="button"
+                            class="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 font-medium rounded text-sm px-5 py-2.5 text-center inline-flex items-center dark:hover:bg-[#FF9119]/80 dark:focus:ring-[#FF9119]/40 me-2 mb-2">
+                            SUBMIT
+                        </button>
+                    </div>
+                    <div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="flex flex-row flex-start color2">
+            <div class="flex flex-col flex-start p-0 gap-[14px] ps-5">
+                <div>
+
+                    <img src="../assets/Symbols.jpg" alt="logo">
                 </div>
                 <div>
-                    <p class="text-2xl md:text-4xl text-center">Get weekly updates</p>
+                    <p class="text-white">Fickle Flight is your one-stop travel portal. We offer hassle free flight and
+                        hotel bookings. We also have all your flight needs in you online shop.</p>
                 </div>
+                <div class="text-white ">
+                    <i class="pe-4 fa-brands fa-facebook pe-1"></i>
+                    <i class="pe-4 fa-brands fa-square-instagram pe-1"></i>
+                    <i class=" fa-brands fa-twitter pe-1"></i>
+
+                </div>
+
             </div>
-            <div class="box-border flex flex-col items-start gap-4 bg-white pt-7 pb-7 px-5">
-                <p>Fill in your details to join the party!</p>
-                <input type="text" placeholder="Your name" class="p-3 border-2 w-full max-w-xs">
-                <input type="text" placeholder="Email Address" class="p-3 border-2 w-full max-w-xs">
-                <button type="button"
-                    class="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 font-medium rounded text-sm px-5 py-2.5">
-                    SUBMIT
-                </button>
+
+
+            <div class=" line pb-5">
             </div>
+            <div class=" p-0 text-white m-0 gap-[5px] ">
+                <div>
+                    <p class="mb-2">Company</p>
+                    <p>About Us</p>
+                    <p>News</p>
+                    <p>Careers</p>
+                    <p>How we work</p>
+
+                </div>
+
+
+            </div>
+            <div class=" p-0 text-white m-0 gap-[5px]">
+                <div>
+                    <p class="mb-2">Support</p>
+                    <p>Account</p>
+                    <p>Support Center</p>
+                    <p>FAQ</p>
+                    <p>Accessibility</p>
+
+                </div>
+
+
+            </div>
+            <div class=" p-0 text-white m-0 pe-4">
+                <div>
+                    <p class="mb-2">More</p>
+                    <p>Covid Advisory</p>
+                    <p>Airpline Fess</p>
+                    <p>Tips</p>
+                    <p>Qaurantine</p>
+
+                </div>
+
+
+            </div>
+
+
+
+
+
+
+
         </div>
-    </div>
-
-    <div class="flex flex-col md:flex-row flex-start color2 p-5">
-        <div class="flex flex-col items-start gap-4">
-            <img src="../assets/Symbols.jpg" alt="logo" class="w-auto h-auto">
-            <p class="text-white text-sm md:text-base">Fickle Flight is your one-stop travel portal. We offer hassle-free flight and hotel bookings. We also have all your flight needs in your online shop.</p>
-            <div class="text-white flex space-x-4">
-                <i class="fa-brands fa-facebook"></i>
-                <i class="fa-brands fa-square-instagram"></i>
-                <i class="fa-brands fa-twitter"></i>
-            </div>
-        </div>
-
-        <div class="line"></div>
-
-        <div class="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-3  text-white gap-4">
-            <!-- Company Section -->
-            <div class="flex flex-col">
-                <p class="mb-2 font-semibold">Company</p>
-                <p>About Us</p>
-                <p>News</p>
-                <p>Careers</p>
-                <p>How we work</p>
-            </div>
-
-            <!-- Support Section -->
-            <div class="flex flex-col">
-                <p class="mb-2 font-semibold">Support</p>
-                <p>Account</p>
-                <p>Support Center</p>
-                <p>FAQ</p>
-                <p>Accessibility</p>
-            </div>
-
-            <!-- More Section -->
-            <div class="flex flex-col">
-                <p class="mb-2 font-semibold">More</p>
-                <p>Covid Advisory</p>
-                <p>Airline Fees</p>
-                <p>Tips</p>
-                <p>Quarantine</p>
-            </div>
-        </div>
-    </div>
-</footer>
 
 
 
+    </footer>
 
 
 </template>
@@ -875,46 +951,187 @@
 
 }
 
+.back {
+    /* position: absolute; */
+    width: 65.39px;
+    height: 65.39px;
+    left: 0px;
+    top: 0px;
+
+    background: #F9668D;
+    border-radius: 16px;
+
+}
+
+.back1 {
+    width: 65.39px;
+    height: 65.39px;
+    left: 0px;
+    top: 0px;
+
+    background: #FF9B53;
+
+    border-radius: 16px;
+}
+
+.back2 {
+    /* Background */
+
+    width: 65.39px;
+    height: 65.39px;
+    left: 0px;
+    top: 0px;
+
+    background: #36DA76;
+    border-radius: 16px;
 
 
 
+}
+
+.back3 {
+    /* Background */
+
+    width: 65.39px;
+    height: 65.39px;
+    left: 2.31px;
+    top: 0px;
+
+    background: #FDBF00;
+    border-radius: 16px;
+
+}
+
+.back4 {
+    /* Background */
+
+    width: 70px;
+    height: 65.39px;
+    left: 0px;
+    top: 0px;
+
+    background: #4DABFF;
+    border-radius: 16px;
+
+}
+
+.back5 {
+    /* Background */
+
+    width: 65.39px;
+    height: 65.39px;
+    left: 0px;
+    top: 0px;
+
+    background: #79CA00;
+    border-radius: 16px;
+
+}
+
+.parisimage {
+    /* position: absolute; */
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    background: url('../assets/ParisImage.png'), #C4C4C4;
+
+    width: 288px;
+    height: 182px;
+    gap: 0px;
+    opacity: 0px;
+
+    border-radius: 10px;
+
+}
+
+.greeceimage {
+    /* GreeceImage */
+
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    width: 288px;
+    height: 182px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 10px;
 
 
+    background: url('../assets/GreeceImage.png'), #C4C4C4;
+
+}
+
+.norwayimage {
+    /*  */
+
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    width: 288px;
+    height: 182px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 10px;
 
 
+    background: url('../assets/NorwayImage.png'), #C4C4C4;
+
+}
+
+.tuscayimage {
+
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+
+    width: 288px;
+    height: 182px;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 10px;
 
 
+    background: url('../assets/TuscanyImage.png'), #C4C4C4;
 
+}
 
 .footersection {
     /* Subscribe section background */
-    width: 100%;
-    min-height: 466px; /* Ensures minimum height */
-    background: url('../assets/Subscribe.png') center center / cover no-repeat; /* Ensures full background coverage */
-    background-position: center;
-    padding: 20px; /* Ensures padding around the content */
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    box-sizing: border-box;
+
+
+
+    height: 466px;
+    width: auto;
+    background: url('../assets/Subscribe.png');
+    background-size: cover;
+
 }
 
 .color2 {
-    /* Gradient section */
+    /* Auto layout */
+
     padding-top: 20px;
     gap: 20px;
     padding-right: 0;
-    height: auto; /* Use auto height so content adjusts dynamically */
-    min-height: 250px; /* Ensures the gradient section is at least 250px */
+
+
+    height: 250px;
     width: 100%;
     background: linear-gradient(91.74deg, #0B5BA8 30.91%, #299BD8 100.98%);
     background-size: cover;
-    background-position: center;
-    box-sizing: border-box;
+
 }
 
 .line {
     border: 1px solid rgba(255, 255, 255, 0.2);
+    /* transform: rotate(90deg); */
+
 }
 </style>
