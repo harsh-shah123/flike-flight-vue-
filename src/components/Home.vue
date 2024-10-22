@@ -452,7 +452,7 @@
                 </div>
                 <div class="pe-2">
                   <div class="w-fit">
-                            <img src="../assets/Palawanimage.png" alt="unsplash" class="">
+                            <img :src="Palawanimage" alt="unsplash" class="">
                             <div class="flex flex-row items-center p-0 justify-between   pb-[8px] ">
                                 
                                 <div class="flex flex-col items-center p-0 gap-[6px]">
@@ -695,7 +695,7 @@
 </template>
 
 <script setup>
-
+import Palawanimage from "../assets/Palawanimage.png"
 </script>
 
 <style scoped>
