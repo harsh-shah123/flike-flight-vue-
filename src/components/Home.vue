@@ -45,7 +45,7 @@
                             </p>
                             <div class="text-black">
                                 <input type="radio" name="return" id="return">
-                                <span>Return</span>
+                                <span class="pe-3">Return</span>
                                 <input type="radio" name="return" id="oneway" checked>
                                 <span>One-way</span>
                             </div>
