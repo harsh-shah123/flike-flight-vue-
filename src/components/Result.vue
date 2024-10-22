@@ -1,30 +1,31 @@
 <template>
-
-
-
-
-<header class="w-full">
-    <!-- Top Header -->
-    <section>
-        <div class="p-4 lg:p-10 pt-4 pb-2 flex justify-between items-center">
-            <div>
-                <img src="../assets/Symbols.jpg" alt="Symbols" class="max-w-full h-auto">
-            </div>
-            <div class="flex gap-2 lg:gap-4 items-center">
-                <router-link to="/" class="text-sm lg:text-base">Home</router-link>
-                <router-link to="/Result" class="text-sm lg:text-base">Result</router-link>
-                <a href="#" class="text-sm lg:text-base">Hotels</a>
-                <a href="#" class="text-sm lg:text-base">Offers</a>
-                <div class="gap-2">
-                    <img src="../assets/notification-bell.png" alt="notification" class="max-w-full h-auto">
+<header>
+        <!-- Top Header -->
+        <section>
+            <div class="p-10 pt-4 pb-2 flex flex-col md:flex-row justify-between items-center">
+                <div class="flex justify-center w-full md:w-auto">
+                    <img src="../assets/Symbols.jpg" alt="Symbols" class="max-w-full h-auto">
                 </div>
-                <div>
-                    <img src="../assets/profile picture.jpg" alt="profile" class="rounded-full max-w-full h-auto">
+                <div class="flex flex-col md:flex-row md:gap-4 items-center w-full md:w-auto mt-4 md:mt-0">
+                    <router-link to="/" class="text-sm lg:text-base">Home</router-link>
+                    <router-link to="/Result" class="text-sm lg:text-base">Result</router-link>
+                    <a href="#" class="text-sm lg:text-base">Hotels</a>
+                    <a href="#" class="text-sm lg:text-base">Offers</a>
+                    <div class="flex items-center gap-2">
+                        <img src="../assets/notification-bell.png" alt="notification" class="max-w-full h-auto">
+                    </div>
+                    <div>
+                        <img src="../assets/profile picture.jpg" alt="profile" class="rounded-full max-w-full h-auto">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
-</header>
+        </section>
+    </header>
+
+
+
+
+
 
     <!-- Search Section -->
     <section>
@@ -68,7 +69,7 @@
                                 Date
                             </label>
                             <div class="absolute inset-y-0 right-0 flex items-center pr-3 pointer-events-none">
-                                <i class="fa-solid fa-calendar-days h-5 w-5 text-gray-500"></i>
+                                <i class="fa-solid fa-calendar-days h-5 w-5 pt-1 text-gray-500"></i>
                             </div>
                         </div>
 
@@ -88,9 +89,9 @@
 
     <!-- Search filters -->
     <section>
-        <div class="flex flex-row flex-start pt-[50px] pb-[50px] ps-[80px] pe-[80px]">
-
-            <div class="flex flex-col flex-start p-0 gap-[30px] me-12">
+        <div class="md:flex flex-row flex-start pt-[50px] pb-[50px] ps-[80px] pe-[80px]">
+          
+            <div class="sm: flex flex-col  p-0 gap-[20px] me-12 md:text-left sm:text-center ">
                 <div class="">
                     <p>10 out of 177 Results</p>
                 </div>
@@ -138,489 +139,550 @@
                         <input type="checkbox" name="stop2" id=""> Qatar Airlines
                     </div>
                 </div>
+            </div>      
+          <!-- Result Secation -->
+            <div class='pt-2'>
+
+            <div class="md:flex flex-row flex-start p-0 gap-[24px] sm:flex-col">
+                <div class="sm:flex flex-col  gap-[12px] text-stone-600  box-border ">
+                    <p class="pb-2">10 out of 177 Results</p>
+                    <div class=" items-center p-2 h-auto border-2 border-stone-300 rounded sm:flex flex-row md:flex flex-row items-center sm:box-content ">
+
+                        <div class="pe-2">
+
+                            <img src="../assets/turkish.png" alt="turkish airlines">
+                        </div>
+                        <div class=" pe-2">
+                            <p class="ps-0  text-base">
+                                Turkish Airlines
+
+                            </p>
+                        </div>
+                        <div class=" flex flex-col p-0 mt-0 gap-[10px] ps-2">
+                           
+
+                                <p class="text-blue-900">11.35 PM</p>
+                            
+
+                                SIN
+                            
+
+
+                        </div>
+                        <div class=" pe-2 flex flex-col  p-0 mt-0 gap-[10px] ps-2">
+                            <div>
+                                <!-- flight section -->
+                                <div
+                                    class="flex flex-row justify-between text-blue-900 items-center w-[150px] p-0 border-2 border-transparent relative">
+                                    <!-- Circle -->
+                                    <div>
+                                        <i class="fa-sharp fa-regular fa-circle"></i>
+                                    </div>
+
+                                    <!-- Dashed Line with Airplane -->
+                                    <div class="relative w-full h-0 flex items-center justify-center">
+                                        <!-- Dashed Line -->
+                                        <div class="absolute w-full border-t-2 border-dashed border-blue-600 "></div>
+                                        <!-- Airplane Icon (centered on the dashed line) -->
+                                        <i class="fa-sharp fa-solid fa-plane bg-white px-1"></i>
+                                    </div>
+
+                                    <!-- Circle -->
+                                    <div>
+                                        <i class="fa-sharp fa-regular fa-circle"></i>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div>
+
+                                33H 10M, 1-stop
+                            </div>
+
+
+                        </div>
+                        <div class="flex flex-col flex-end pe-2 p-0 mt-0 gap-[10px] ps-2">
+                            <div>
+
+                                <p class="text-blue-900">4.45 PM</p>
+                            </div>
+                            <div>
+
+                                LAX
+                            </div>
+
+
+                        </div>
+                        <div class="line h-[122%] overflow-hidden  ">
+
+                        </div>
+                        <div class="font-semibold text-2xl text-amber-400	">
+                            <p class="ps-2">s$ 723</p>
+                        </div>
+                    </div>
+                    <div class=" items-center p-2 h-auto border-2 border-stone-300 rounded sm:flex flex-row md:flex flex-row items-center sm:box-content ">
+
+<div class="pe-2">
+
+    <img src="../assets/turkish.png" alt="turkish airlines">
+</div>
+<div class=" pe-2">
+    <p class="ps-0  text-base">
+        Turkish Airlines
+
+    </p>
+</div>
+<div class=" flex flex-col p-0 mt-0 gap-[10px] ps-2">
+   
+
+        <p class="text-blue-900">11.35 PM</p>
+    
+
+        SIN
+    
+
+
+</div>
+<div class=" pe-2 flex flex-col  p-0 mt-0 gap-[10px] ps-2">
+    <div>
+        <!-- flight section -->
+        <div
+            class="flex flex-row justify-between text-blue-900 items-center w-[150px] p-0 border-2 border-transparent relative">
+            <!-- Circle -->
+            <div>
+                <i class="fa-sharp fa-regular fa-circle"></i>
             </div>
 
+            <!-- Dashed Line with Airplane -->
+            <div class="relative w-full h-0 flex items-center justify-center">
+                <!-- Dashed Line -->
+                <div class="absolute w-full border-t-2 border-dashed border-blue-600 "></div>
+                <!-- Airplane Icon (centered on the dashed line) -->
+                <i class="fa-sharp fa-solid fa-plane bg-white px-1"></i>
+            </div>
 
+            <!-- Circle -->
+            <div>
+                <i class="fa-sharp fa-regular fa-circle"></i>
+            </div>
 
+        </div>
+    </div>
+    <div>
+
+        33H 10M, 1-stop
+    </div>
 
 
+</div>
+<div class="flex flex-col flex-end pe-2 p-0 mt-0 gap-[10px] ps-2">
+    <div>
+
+        <p class="text-blue-900">4.45 PM</p>
+    </div>
+    <div>
+
+        LAX
+    </div>
+
+
+</div>
+<div class="line h-[122%] overflow-hidden  ">
+
+</div>
+<div class="font-semibold text-2xl text-amber-400	">
+    <p class="ps-2">s$ 723</p>
+</div>
+</div>
+<div class=" items-center p-2 h-auto border-2 border-stone-300 rounded sm:flex flex-row md:flex flex-row items-center sm:box-content">
+
+<div class="pe-2">
+
+    <img src="../assets/turkish.png" alt="turkish airlines">
+</div>
+<div class=" pe-2">
+    <p class="ps-0  text-base">
+        Turkish Airlines
+
+    </p>
+</div>
+<div class=" flex flex-col p-0 mt-0 gap-[10px] ps-2">
+   
+
+        <p class="text-blue-900">11.35 PM</p>
+    
+
+        SIN
+    
+
+
+</div>
+<div class=" pe-2 flex flex-col  p-0 mt-0 gap-[10px] ps-2">
+    <div>
+        <!-- flight section -->
+        <div
+            class="flex flex-row justify-between text-blue-900 items-center w-[150px] p-0 border-2 border-transparent relative">
+            <!-- Circle -->
+            <div>
+                <i class="fa-sharp fa-regular fa-circle"></i>
+            </div>
+
+            <!-- Dashed Line with Airplane -->
+            <div class="relative w-full h-0 flex items-center justify-center">
+                <!-- Dashed Line -->
+                <div class="absolute w-full border-t-2 border-dashed border-blue-600 "></div>
+                <!-- Airplane Icon (centered on the dashed line) -->
+                <i class="fa-sharp fa-solid fa-plane bg-white px-1"></i>
+            </div>
+
+            <!-- Circle -->
+            <div>
+                <i class="fa-sharp fa-regular fa-circle"></i>
+            </div>
+
+        </div>
+    </div>
+    <div>
+
+        33H 10M, 1-stop
+    </div>
+
+
+</div>
+<div class="flex flex-col flex-end pe-2 p-0 mt-0 gap-[10px] ps-2">
+    <div>
+
+        <p class="text-blue-900">4.45 PM</p>
+    </div>
+    <div>
+
+        LAX
+    </div>
+
+
+</div>
+<div class="line h-[122%] overflow-hidden  ">
+
+</div>
+<div class="font-semibold text-2xl text-amber-400	">
+    <p class="ps-2">s$ 723</p>
+</div>
+</div>
+<div class=" items-center p-2 h-auto border-2 border-stone-300 rounded sm:flex flex-row md:flex flex-row items-center sm:box-content">
 
+<div class="pe-2">
+
+    <img src="../assets/turkish.png" alt="turkish airlines">
+</div>
+<div class=" pe-2">
+    <p class="ps-0  text-base">
+        Turkish Airlines
+
+    </p>
+</div>
+<div class=" flex flex-col p-0 mt-0 gap-[10px] ps-2">
+   
+
+        <p class="text-blue-900">11.35 PM</p>
+    
+
+        SIN
+    
+
+
+</div>
+<div class=" pe-2 flex flex-col  p-0 mt-0 gap-[10px] ps-2">
+    <div>
+        <!-- flight section -->
+        <div
+            class="flex flex-row justify-between text-blue-900 items-center w-[150px] p-0 border-2 border-transparent relative">
+            <!-- Circle -->
+            <div>
+                <i class="fa-sharp fa-regular fa-circle"></i>
+            </div>
+
+            <!-- Dashed Line with Airplane -->
+            <div class="relative w-full h-0 flex items-center justify-center">
+                <!-- Dashed Line -->
+                <div class="absolute w-full border-t-2 border-dashed border-blue-600 "></div>
+                <!-- Airplane Icon (centered on the dashed line) -->
+                <i class="fa-sharp fa-solid fa-plane bg-white px-1"></i>
+            </div>
 
-            <!-- Result Secation -->
-            <div class="flex flex-row flex-start p-0 gap-[24px]">
-                <div class="flex flex-col flex-start p-[0] gap-[12px] text-stone-600  box-border    ">
-                    <p>10 out of 177 Results</p>
-                    <div    
-                        class="flex flex-row items-center p-2 h-[100px] box-border  border-2 border-stone-300 rounded  ">
+            <!-- Circle -->
+            <div>
+                <i class="fa-sharp fa-regular fa-circle"></i>
+            </div>
 
-                        <div class="gap-[0px] grid grid-cols-1 pe-2">
+        </div>
+    </div>
+    <div>
 
-                            <img src="../assets/turkish.png" alt="turkish airlines">
-                        </div>
-                        <div class="grid grid-cols-1 pe-2">
-                            <p class="ps-0  text-base">
-                                Turkish Airlines
+        33H 10M, 1-stop
+    </div>
 
-                            </p>
-                        </div>
-                        <div class=" flex flex-col  flex-start p-0 mt-0 gap-[10px] ps-2">
-                            <div>
 
-                                <p class="text-blue-900">11.35 PM</p>
-                            </div>
-                            <div>
+</div>
+<div class="flex flex-col flex-end pe-2 p-0 mt-0 gap-[10px] ps-2">
+    <div>
 
-                                SIN
-                            </div>
+        <p class="text-blue-900">4.45 PM</p>
+    </div>
+    <div>
+
+        LAX
+    </div>
+
 
-
-                        </div>
-                        <div class="grid grid-cols-1 pe-2 flex flex-col  p-0 mt-0 gap-[10px] ps-2">
-                            <div>
-                                <!-- flight section -->
-                                <div
-                                    class="flex flex-row justify-between text-blue-900 items-center w-[150px] p-0 border-2 border-transparent relative">
-                                    <!-- Circle -->
-                                    <div>
-                                        <i class="fa-sharp fa-regular fa-circle"></i>
-                                    </div>
+</div>
+<div class="line h-[122%] overflow-hidden  ">
 
-                                    <!-- Dashed Line with Airplane -->
-                                    <div class="relative w-full h-0 flex items-center justify-center">
-                                        <!-- Dashed Line -->
-                                        <div class="absolute w-full border-t-2 border-dashed border-blue-600 "></div>
-                                        <!-- Airplane Icon (centered on the dashed line) -->
-                                        <i class="fa-sharp fa-solid fa-plane bg-white px-1"></i>
-                                    </div>
+</div>
+<div class="font-semibold text-2xl text-amber-400	">
+    <p class="ps-2">s$ 723</p>
+</div>
+</div>
+<div class=" items-center p-2 h-auto border-2 border-stone-300 rounded sm:flex flex-row md:flex flex-row items-center sm:box-content">
+
+<div class="pe-2">
+
+    <img src="../assets/turkish.png" alt="turkish airlines">
+</div>
+<div class=" pe-2">
+    <p class="ps-0  text-base">
+        Turkish Airlines
+
+    </p>
+</div>
+<div class=" flex flex-col p-0 mt-0 gap-[10px] ps-2">
+   
+
+        <p class="text-blue-900">11.35 PM</p>
+    
+
+        SIN
+    
+
+
+</div>
+<div class=" pe-2 flex flex-col  p-0 mt-0 gap-[10px] ps-2">
+    <div>
+        <!-- flight section -->
+        <div
+            class="flex flex-row justify-between text-blue-900 items-center w-[150px] p-0 border-2 border-transparent relative">
+            <!-- Circle -->
+            <div>
+                <i class="fa-sharp fa-regular fa-circle"></i>
+            </div>
+
+            <!-- Dashed Line with Airplane -->
+            <div class="relative w-full h-0 flex items-center justify-center">
+                <!-- Dashed Line -->
+                <div class="absolute w-full border-t-2 border-dashed border-blue-600 "></div>
+                <!-- Airplane Icon (centered on the dashed line) -->
+                <i class="fa-sharp fa-solid fa-plane bg-white px-1"></i>
+            </div>
+
+            <!-- Circle -->
+            <div>
+                <i class="fa-sharp fa-regular fa-circle"></i>
+            </div>
+
+        </div>
+    </div>
+    <div>
+
+        33H 10M, 1-stop
+    </div>
+
+
+</div>
+<div class="flex flex-col flex-end pe-2 p-0 mt-0 gap-[10px] ps-2">
+    <div>
+
+        <p class="text-blue-900">4.45 PM</p>
+    </div>
+    <div>
+
+        LAX
+    </div>
+
+
+</div>
+<div class="line h-[122%] overflow-hidden  ">
 
-                                    <!-- Circle -->
-                                    <div>
-                                        <i class="fa-sharp fa-regular fa-circle"></i>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div>
-
-                                33H 10M, 1-stop
-                            </div>
-
-
-                        </div>
-                        <div class="flex flex-col flex-end pe-2 p-0 mt-0 gap-[10px] ps-2">
-                            <div>
-
-                                <p class="text-blue-900">4.45 PM</p>
-                            </div>
-                            <div>
-
-                                LAX
-                            </div>
-
-
-                        </div>
-                        <div class="line h-[122%] overflow-hidden  ">
-
-                        </div>
-                        <div class="font-semibold text-2xl text-amber-400	">
-                            <p class="ps-2">s$ 723</p>
-                        </div>
-                    </div>
-                    <div    
-                        class="h-[100px] flex flex-row items-center p-2  box-border  border-2 border-stone-300 rounded  ">
-
-                        <div class="gap-[0px] grid grid-cols-1 pe-2">
-
-                            <img src="../assets/turkish.png" alt="turkish airlines">
-                        </div>
-                        <div class="grid grid-cols-1 pe-2">
-                            <p class="ps-0  text-base">
-                                Turkish Airlines
-
-                            </p>
-                        </div>
-                        <div class=" flex flex-col  flex-start p-0 mt-0 gap-[10px] ps-2">
-                            <div>
-
-                                <p class="text-blue-900">11.35 PM</p>
-                            </div>
-                            <div>
-
-                                SIN
-                            </div>
-
-
-                        </div>
-                        <div class="grid grid-cols-1 pe-2 flex flex-col  p-0 mt-0 gap-[10px] ps-2">
-                            <div>
-                                <!-- flight section -->
-                                <div
-                                    class="flex flex-row justify-between text-blue-900 items-center w-[150px] p-0 border-2 border-transparent relative">
-                                    <!-- Circle -->
-                                    <div>
-                                        <i class="fa-sharp fa-regular fa-circle"></i>
-                                    </div>
-
-                                    <!-- Dashed Line with Airplane -->
-                                    <div class="relative w-full h-0 flex items-center justify-center">
-                                        <!-- Dashed Line -->
-                                        <div class="absolute w-full border-t-2 border-dashed border-blue-600 "></div>
-                                        <!-- Airplane Icon (centered on the dashed line) -->
-                                        <i class="fa-sharp fa-solid fa-plane bg-white px-1"></i>
-                                    </div>
-
-                                    <!-- Circle -->
-                                    <div>
-                                        <i class="fa-sharp fa-regular fa-circle"></i>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div>
-
-                                33H 10M, 1-stop
-                            </div>
-
-
-                        </div>
-                        <div class="flex flex-col flex-end pe-2 p-0 mt-0 gap-[10px] ps-2">
-                            <div>
-
-                                <p class="text-blue-900">4.45 PM</p>
-                            </div>
-                            <div>
-
-                                LAX
-                            </div>
-
-
-                        </div>
-                        <div class="line h-[122%] overflow-hidden  ">
-
-                        </div>
-                        <div class="font-semibold text-2xl text-amber-400	">
-                            <p class="ps-2">s$ 723</p>
-                        </div>
-                    </div>
-                    <div    
-                        class=" h-[100px] flex flex-row items-center p-2  box-border  border-2 border-stone-300 rounded  ">
-
-                        <div class="gap-[0px] grid grid-cols-1 pe-2">
-
-                            <img src="../assets/turkish.png" alt="turkish airlines">
-                        </div>
-                        <div class="grid grid-cols-1 pe-2">
-                            <p class="ps-0  text-base">
-                                Turkish Airlines
-
-                            </p>
-                        </div>
-                        <div class=" flex flex-col  flex-start p-0 mt-0 gap-[10px] ps-2">
-                            <div>
-
-                                <p class="text-blue-900">11.35 PM</p>
-                            </div>
-                            <div>
-
-                                SIN
-                            </div>
-
-
-                        </div>
-                        <div class="grid grid-cols-1 pe-2 flex flex-col  p-0 mt-0 gap-[10px] ps-2">
-                            <div>
-                                <!-- flight section -->
-                                <div
-                                    class="flex flex-row justify-between text-blue-900 items-center w-[150px] p-0 border-2 border-transparent relative">
-                                    <!-- Circle -->
-                                    <div>
-                                        <i class="fa-sharp fa-regular fa-circle"></i>
-                                    </div>
-
-                                    <!-- Dashed Line with Airplane -->
-                                    <div class="relative w-full h-0 flex items-center justify-center">
-                                        <!-- Dashed Line -->
-                                        <div class="absolute w-full border-t-2 border-dashed border-blue-600 "></div>
-                                        <!-- Airplane Icon (centered on the dashed line) -->
-                                        <i class="fa-sharp fa-solid fa-plane bg-white px-1"></i>
-                                    </div>
-
-                                    <!-- Circle -->
-                                    <div>
-                                        <i class="fa-sharp fa-regular fa-circle"></i>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div>
-
-                                33H 10M, 1-stop
-                            </div>
-
-
-                        </div>
-                        <div class="flex flex-col flex-end pe-2 p-0 mt-0 gap-[10px] ps-2">
-                            <div>
-
-                                <p class="text-blue-900">4.45 PM</p>
-                            </div>
-                            <div>
-
-                                LAX
-                            </div>
-
-
-                        </div>
-                        <div class="line h-[122%] overflow-hidden  ">
-
-                        </div>
-                        <div class="font-semibold text-2xl text-amber-400	">
-                            <p class="ps-2">s$ 723</p>
-                        </div>
-                    </div>
-                    <div    
-                        class="h-[100px] flex flex-row items-center p-2  box-border  border-2 border-stone-300 rounded  ">
-
-                        <div class="gap-[0px] grid grid-cols-1 pe-2">
-
-                            <img src="../assets/turkish.png" alt="turkish airlines">
-                        </div>
-                        <div class="grid grid-cols-1 pe-2">
-                            <p class="ps-0  text-base">
-                                Turkish Airlines
-
-                            </p>
-                        </div>
-                        <div class=" flex flex-col  flex-start p-0 mt-0 gap-[10px] ps-2">
-                            <div>
-
-                                <p class="text-blue-900">11.35 PM</p>
-                            </div>
-                            <div>
-
-                                SIN
-                            </div>
-
-
-                        </div>
-                        <div class="grid grid-cols-1 pe-2 flex flex-col  p-0 mt-0 gap-[10px] ps-2">
-                            <div>
-                                <!-- flight section -->
-                                <div
-                                    class="flex flex-row justify-between text-blue-900 items-center w-[150px] p-0 border-2 border-transparent relative">
-                                    <!-- Circle -->
-                                    <div>
-                                        <i class="fa-sharp fa-regular fa-circle"></i>
-                                    </div>
-
-                                    <!-- Dashed Line with Airplane -->
-                                    <div class="relative w-full h-0 flex items-center justify-center">
-                                        <!-- Dashed Line -->
-                                        <div class="absolute w-full border-t-2 border-dashed border-blue-600 "></div>
-                                        <!-- Airplane Icon (centered on the dashed line) -->
-                                        <i class="fa-sharp fa-solid fa-plane bg-white px-1"></i>
-                                    </div>
-
-                                    <!-- Circle -->
-                                    <div>
-                                        <i class="fa-sharp fa-regular fa-circle"></i>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div>
-
-                                33H 10M, 1-stop
-                            </div>
-
-
-                        </div>
-                        <div class="flex flex-col flex-end pe-2 p-0 mt-0 gap-[10px] ps-2">
-                            <div>
-
-                                <p class="text-blue-900">4.45 PM</p>
-                            </div>
-                            <div>
-
-                                LAX
-                            </div>
-
-
-                        </div>
-                        <div class="line h-[122%] overflow-hidden  ">
-
-                        </div>
-                        <div class="font-semibold text-2xl text-amber-400	">
-                            <p class="ps-2">s$ 723</p>
-                        </div>
-                    </div>
-                    <div    
-                        class="h-[100px] flex flex-row items-center p-2  box-border  border-2 border-stone-300 rounded  ">
-
-                        <div class="gap-[0px] grid grid-cols-1 pe-2">
-
-                            <img src="../assets/turkish.png" alt="turkish airlines">
-                        </div>
-                        <div class="grid grid-cols-1 pe-2">
-                            <p class="ps-0  text-base">
-                                Turkish Airlines
-
-                            </p>
-                        </div>
-                        <div class=" flex flex-col  flex-start p-0 mt-0 gap-[10px] ps-2">
-                            <div>
-
-                                <p class="text-blue-900">11.35 PM</p>
-                            </div>
-                            <div>
-
-                                SIN
-                            </div>
-
-
-                        </div>
-                        <div class="grid grid-cols-1 pe-2 flex flex-col  p-0 mt-0 gap-[10px] ps-2">
-                            <div>
-                                <!-- flight section -->
-                                <div
-                                    class="flex flex-row justify-between text-blue-900 items-center w-[150px] p-0 border-2 border-transparent relative">
-                                    <!-- Circle -->
-                                    <div>
-                                        <i class="fa-sharp fa-regular fa-circle"></i>
-                                    </div>
-
-                                    <!-- Dashed Line with Airplane -->
-                                    <div class="relative w-full h-0 flex items-center justify-center">
-                                        <!-- Dashed Line -->
-                                        <div class="absolute w-full border-t-2 border-dashed border-blue-600 "></div>
-                                        <!-- Airplane Icon (centered on the dashed line) -->
-                                        <i class="fa-sharp fa-solid fa-plane bg-white px-1"></i>
-                                    </div>
-
-                                    <!-- Circle -->
-                                    <div>
-                                        <i class="fa-sharp fa-regular fa-circle"></i>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div>
-
-                                33H 10M, 1-stop
-                            </div>
-
-
-                        </div>
-                        <div class="flex flex-col flex-end pe-2 p-0 mt-0 gap-[10px] ps-2">
-                            <div>
-
-                                <p class="text-blue-900">4.45 PM</p>
-                            </div>
-                            <div>
-
-                                LAX
-                            </div>
-
-
-                        </div>
-                        <div class="line h-[122%] overflow-hidden  ">
-
-                        </div>
-                        <div class="font-semibold text-2xl text-amber-400	">
-                            <p class="ps-2">s$ 723</p>
-                        </div>
-                    </div>
-                    <div    
-                        class="h-[100px] flex flex-row items-center p-2  box-border  border-2 border-stone-300 rounded  ">
-
-                        <div class="gap-[0px] grid grid-cols-1 pe-2">
-
-                            <img src="../assets/turkish.png" alt="turkish airlines">
-                        </div>
-                        <div class="grid grid-cols-1 pe-2">
-                            <p class="ps-0  text-base">
-                                Turkish Airlines
-
-                            </p>
-                        </div>
-                        <div class=" flex flex-col  flex-start p-0 mt-0 gap-[10px] ps-2">
-                            <div>
-
-                                <p class="text-blue-900">11.35 PM</p>
-                            </div>
-                            <div>
-
-                                SIN
-                            </div>
-
-
-                        </div>
-                        <div class="grid grid-cols-1 pe-2 flex flex-col  p-0 mt-0 gap-[10px] ps-2">
-                            <div>
-                                <!-- flight section -->
-                                <div
-                                    class="flex flex-row justify-between text-blue-900 items-center w-[150px] p-0 border-2 border-transparent relative">
-                                    <!-- Circle -->
-                                    <div>
-                                        <i class="fa-sharp fa-regular fa-circle"></i>
-                                    </div>
-
-                                    <!-- Dashed Line with Airplane -->
-                                    <div class="relative w-full h-0 flex items-center justify-center">
-                                        <!-- Dashed Line -->
-                                        <div class="absolute w-full border-t-2 border-dashed border-blue-600 "></div>
-                                        <!-- Airplane Icon (centered on the dashed line) -->
-                                        <i class="fa-sharp fa-solid fa-plane bg-white px-1"></i>
-                                    </div>
-
-                                    <!-- Circle -->
-                                    <div>
-                                        <i class="fa-sharp fa-regular fa-circle"></i>
-                                    </div>
-
-                                </div>
-                            </div>
-                            <div>
-
-                                33H 10M, 1-stop
-                            </div>
-
-
-                        </div>
-                        <div class="flex flex-col flex-end pe-2 p-0 mt-0 gap-[10px] ps-2">
-                            <div>
-
-                                <p class="text-blue-900">4.45 PM</p>
-                            </div>
-                            <div>
-
-                                LAX
-                            </div>
-
-
-                        </div>
-                        <div class="line h-[122%] overflow-hidden  ">
-
-                        </div>
-                        <div class="font-semibold text-2xl text-amber-400	">
-                            <p class="ps-2">s$ 723</p>
-                        </div>
-                    </div>
+</div>
+<div class="font-semibold text-2xl text-amber-400	">
+    <p class="ps-2">s$ 723</p>
+</div>
+</div><div class=" items-center p-2 h-auto border-2 border-stone-300 rounded sm:flex flex-row md:flex flex-row items-center sm:box-content">
+
+<div class="pe-2">
+
+    <img src="../assets/turkish.png" alt="turkish airlines">
+</div>
+<div class=" pe-2">
+    <p class="ps-0  text-base">
+        Turkish Airlines
+
+    </p>
+</div>
+<div class=" flex flex-col p-0 mt-0 gap-[10px] ps-2">
+   
+
+        <p class="text-blue-900">11.35 PM</p>
+    
+
+        SIN
+    
+
+
+</div>
+<div class=" pe-2 flex flex-col  p-0 mt-0 gap-[10px] ps-2">
+    <div>
+        <!-- flight section -->
+        <div
+            class="flex flex-row justify-between text-blue-900 items-center w-[150px] p-0 border-2 border-transparent relative">
+            <!-- Circle -->
+            <div>
+                <i class="fa-sharp fa-regular fa-circle"></i>
+            </div>
+
+            <!-- Dashed Line with Airplane -->
+            <div class="relative w-full h-0 flex items-center justify-center">
+                <!-- Dashed Line -->
+                <div class="absolute w-full border-t-2 border-dashed border-blue-600 "></div>
+                <!-- Airplane Icon (centered on the dashed line) -->
+                <i class="fa-sharp fa-solid fa-plane bg-white px-1"></i>
+            </div>
+
+            <!-- Circle -->
+            <div>
+                <i class="fa-sharp fa-regular fa-circle"></i>
+            </div>
+
+        </div>
+    </div>
+    <div>
+
+        33H 10M, 1-stop
+    </div>
+
+
+</div>
+<div class="flex flex-col flex-end pe-2 p-0 mt-0 gap-[10px] ps-2">
+    <div>
+
+        <p class="text-blue-900">4.45 PM</p>
+    </div>
+    <div>
+
+        LAX
+    </div>
+
+
+</div>
+<div class="line h-[122%] overflow-hidden  ">
+
+</div>
+<div class="font-semibold text-2xl text-amber-400	">
+    <p class="ps-2">s$ 723</p>
+</div>
+</div><div class=" items-center p-2 h-auto border-2 border-stone-300 rounded sm:flex flex-row md:flex flex-row items-center sm:box-content">
+
+<div class="pe-2">
+
+    <img src="../assets/turkish.png" alt="turkish airlines">
+</div>
+<div class=" pe-2">
+    <p class="ps-0  text-base">
+        Turkish Airlines
+
+    </p>
+</div>
+<div class=" flex flex-col p-0 mt-0 gap-[10px] ps-2">
+   
+
+        <p class="text-blue-900">11.35 PM</p>
+    
+
+        SIN
+    
+
+
+</div>
+<div class=" pe-2 flex flex-col  p-0 mt-0 gap-[10px] ps-2">
+    <div>
+        <!-- flight section -->
+        <div
+            class="flex flex-row justify-between text-blue-900 items-center w-[150px] p-0 border-2 border-transparent relative">
+            <!-- Circle -->
+            <div>
+                <i class="fa-sharp fa-regular fa-circle"></i>
+            </div>
+
+            <!-- Dashed Line with Airplane -->
+            <div class="relative w-full h-0 flex items-center justify-center">
+                <!-- Dashed Line -->
+                <div class="absolute w-full border-t-2 border-dashed border-blue-600 "></div>
+                <!-- Airplane Icon (centered on the dashed line) -->
+                <i class="fa-sharp fa-solid fa-plane bg-white px-1"></i>
+            </div>
+
+            <!-- Circle -->
+            <div>
+                <i class="fa-sharp fa-regular fa-circle"></i>
+            </div>
+
+        </div>
+    </div>
+    <div>
+
+        33H 10M, 1-stop
+    </div>
+
+
+</div>
+<div class="flex flex-col flex-end pe-2 p-0 mt-0 gap-[10px] ps-2">
+    <div>
+
+        <p class="text-blue-900">4.45 PM</p>
+    </div>
+    <div>
+
+        LAX
+    </div>
+
+
+</div>
+<div class="line h-[122%] overflow-hidden  ">
+
+</div>
+<div class="font-semibold text-2xl text-amber-400	">
+    <p class="ps-2">s$ 723</p>
+</div>
+</div>
                   
 
+                        <div class="pt-2">
 
-                    <div class="rounded bg-sky-900 w-[fit-content] p-3">
-                        <button type="button" class="text-white ">Show more Result</button>
-                    </div>
+                            <div class="rounded bg-sky-900 w-[fit-content] p-3 ">
+                                <button type="button" class="text-white ">Show more Result</button>
+                            </div>
+                        </div>
                     
                 </div>
+                
+            </div>
+            </div>
+            <div class='ps-3 pt-2 w-fit'>
                 <div class=" gap-[12px] ">
                     <p class="text-blue-900 uppercase">recently booked</p>
                     
-                    <div class="flex flex-col flex-start p-[10px] gap-[10px] w-[100%]">
+                    <div class="flex flex-col flex-start p-[10px] gap-[10px] w-[100%] ">
                         <div class="flex flex-row justify-between items-center p-0 gap-[6px]">
                            <div>
-                            <img src="https://api.asm.skype.com/v1/objects/0-jhb-d1-a02ae0052d7c5ca42ce5b98d7cd939bd/views/imgpsh_fullsize_anim" alt="icon">
+                            <img src="../assets/turkish.png" alt="icon">
                            </div>
                            <div class="text-xl">
                             $1128
@@ -655,7 +717,7 @@
 
 
                         </div>
-                        <div class="flex flex-row items-center justify-between text-stone-300 p-0 gap-[20px]">
+                        <div class="flex flex-row items-center justify-between text-stone-400 p-0 gap-[20px]">
                             <i class=" fa-solid fa-couch "></i>
                             <p class="">Economy</p>
 
@@ -668,7 +730,7 @@
                     <div class="flex flex-col flex-start p-[10px] gap-[10px] w-[100%]">
                         <div class="flex flex-row justify-between items-center p-0 gap-[6px]">
                            <div>
-                            <img src="https://api.asm.skype.com/v1/objects/0-jhb-d1-a02ae0052d7c5ca42ce5b98d7cd939bd/views/imgpsh_fullsize_anim" alt="icon">
+                            <img src="../assets/turkish.png" alt="icon">
                            </div>
                            <div class="text-xl">
                             $1128
@@ -703,7 +765,7 @@
 
 
                         </div>
-                        <div class="flex flex-row items-center justify-between text-stone-300 p-0 gap-[20px]">
+                        <div class="flex flex-row items-center justify-between text-stone-400 p-0 gap-[20px]">
                             <i class=" fa-solid fa-couch "></i>
                             <p class="">Economy</p>
 
@@ -716,7 +778,7 @@
                     <div class="flex flex-col flex-start p-[10px] gap-[10px] w-[100%]">
                         <div class="flex flex-row justify-between items-center p-0 gap-[6px]">
                            <div>
-                            <img src="https://api.asm.skype.com/v1/objects/0-jhb-d1-a02ae0052d7c5ca42ce5b98d7cd939bd/views/imgpsh_fullsize_anim" alt="icon">
+                            <img src="../assets/turkish.png" alt="icon">
                            </div>
                            <div class="text-xl">
                             $1128
@@ -751,7 +813,7 @@
 
 
                         </div>
-                        <div class="flex flex-row items-center justify-between text-stone-300 p-0 gap-[20px]">
+                        <div class="flex flex-row items-center justify-between text-stone-400 p-0 gap-[20px]">
                             <i class=" fa-solid fa-couch "></i>
                             <p class="">Economy</p>
 
@@ -761,16 +823,18 @@
                         </div>    
                         <div class="line"></div>
                     </div>  
-                    <div class="bg-sky-200 rounded p-1 text-center">
+                    <div class="bg-sky-300 rounded p-1 text-center">
                         <button type="button" class="text-white text-xl">
-                            show more <i class="fa-solid fa-angle-down"></i>
+                            show more <i class="fa-solid fa-angle-down "></i>
                         </button>
                     </div>
                 </div>
                 
             </div>
-            
         </div>
+
+            
+       
 
         
     </section>
@@ -854,7 +918,7 @@
     /* box-sizing: border-box; */
     position: relative;
 
-    height: 640px;
+    height: 450px;
     /* width: 100%; */
     /* top: 0.4px; */
 
@@ -888,8 +952,6 @@
 
 .footersection {
     /* Subscribe section background */
-    width: 100%;
-    min-height: 466px; /* Ensures minimum height */
     background: url('../assets/Subscribe.png') center center / cover no-repeat; /* Ensures full background coverage */
     background-position: center;
     padding: 20px; /* Ensures padding around the content */
@@ -905,9 +967,6 @@
     padding-top: 20px;
     gap: 20px;
     padding-right: 0;
-    height: auto; /* Use auto height so content adjusts dynamically */
-    min-height: 250px; /* Ensures the gradient section is at least 250px */
-    width: 100%;
     background: linear-gradient(91.74deg, #0B5BA8 30.91%, #299BD8 100.98%);
     background-size: cover;
     background-position: center;
