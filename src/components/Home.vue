@@ -82,7 +82,7 @@ not responsive -->
                 <!-- search for flight -->
                 <div
                     class="flex flex-col items-center justify-center h-4/5 p-5 md:p-10   font-mono font-extrabold text-white">
-                    <p class="md:text-5xl text-center sm:text-center sm:text-sm sm:flex items-center ">
+                    <p style="font-family: 'Baloo Bhai';" class=" md:text-5xl text-center sm:text-center sm:text-sm sm:flex items-center mt-[100px]">
                         Let’s explore & travel the world
                     </p>
                     <p class="text-center mt-3">
@@ -105,37 +105,44 @@ not responsive -->
                         </div>
                         <div class="flex flex-col md:flex-row ms-3 text-center gap-5">
                             <div class="relative mb-3 pt-2 w-full max-w-xs">
-                                <input type="text"
-                                    class="peer block min-h-[auto] border-[1px] rounded border-gray-400 ms-2 px-3 py-[0.32rem] text-black w-full"
-                                    readonly value="Singapore (SIN)" />
+                                <select  class="drop peer block min-h-[auto] border-[1px] rounded border-gray-400 ms-2 px-3 py-[0.32rem]  text-black w-[250px]">
+                                        <option value="London">London</option>
+                                        <option value="America">America</option>
+                                        <option value="India">India</option>
+                                        <option value="England">England</option>
+                                    </select>
                                 <label
                                     class="pointer-events-none absolute left-3 top-[-0.3rem] mb-0 max-w-[90%] origin-[0_0] truncate bg-white px-1 text-neutral-500 ">Departure
                                 </label>
                             </div>
                             <div class="relative mb-3 pt-2 w-full max-w-xs">
-                                <input type="text"
-                                    class="peer block min-h-[auto] border-[1px] rounded border-gray-400 ms-2 px-3 py-[0.32rem] text-black w-full"
-                                    readonly value="Los Angeles (LA)" />
+                               
+                                    <select  class="drop peer block min-h-[auto] border-[1px] rounded border-gray-400 ms-2 px-3 py-[0.32rem] w-[250px] text-black">
+                                        <option value="Tampines">Tampines</option>
+                                        <option value="Kampong Glam">Kampong Glam</option>
+                                        <option value="Ang Mo Kio">Ang Mo Kio</option>
+                                        <option value="Jurong">Jurong</option>
+                                    </select>
                                 <label
                                     class="pointer-events-none absolute left-3 top-[-0.3rem] mb-0 max-w-[90%] origin-[0_0] truncate bg-white px-1 text-neutral-500">Arrival
                                 </label>
                             </div>
                             <div class="relative mb-3 pt-2 w-full max-w-xs">
-                                <input type="text"
-                                    class="peer block min-h-[auto] border-[1px] rounded border-gray-400 ms-2 px-3 py-[0.32rem] text-black w-full"
-                                    readonly value="01/05/2022" />
+                                <input type="date"
+                                    class="peer block min-h-[auto] border-[1px] rounded border-gray-400 ms-2 px-3 py-[0.32rem] text-black w-[250px]"
+                                    />
                                 <label
                                     class="pointer-events-none absolute left-3 top-[-0.3rem]  origin-[0_0] truncate bg-white px-1 text-neutral-500">Date
                                 </label>
                                 <div class="absolute inset-y-0 right-0 flex items-center ">
-                                    <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                    <!-- <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <g opacity="0.5">
                                             <path
                                                 d="M19.1751 4.42804H18.2782V2.63428H16.4845V4.42804H7.51566V2.63428H5.7219V4.42804H4.82501C3.83844 4.42804 3.03125 5.23523 3.03125 6.2218V20.5719C3.03125 21.5585 3.83844 22.3657 4.82501 22.3657H19.1751C20.1617 22.3657 20.9689 21.5585 20.9689 20.5719V6.2218C20.9689 5.23523 20.1617 4.42804 19.1751 4.42804ZM19.1751 20.5719H4.82501V8.91245H19.1751V20.5719Z"
                                                 fill="black" fill-opacity="0.54" />
                                         </g>
-                                    </svg>
+                                    </svg> -->
                                 </div>
                             </div>
                             <div class="ps-1 pt-1">
@@ -160,7 +167,7 @@ not responsive -->
         <!-- Flight Main Container -->
         <div class=" ">
             <div class="flex flex-col md:flex-row justify-between">
-                <div class="  flex flex-col items-center  gap-[21px] md:flex justify-center w-full ">
+                <div class="overflow-hidden  flex flex-col items-center  gap-[21px] md:flex justify-center w-full ">
                     <div class="flex flex-row items-center  md:gap-[51px] text-sky-900 sm:gap-[25px]">
                         <p class=" font-black-900 md:text-xl font-semibold sm:text-sm ">SIN</p>
                         <!-- Duration -->
@@ -343,7 +350,7 @@ not responsive -->
         <!-- aaiya mukvu bathu j  -->
         <!-- Plan your next trip -->
         <div class="flex flex-col p-0 gap-[24px] flex-start mt-3 ">
-            <div class="flex flex-row items-center p-0 justify-between sm:w-[100%] sm:justify-between">
+            <div class="overflow-hidden flex flex-row items-center p-0 justify-between sm:w-[100%] sm:justify-between">
                 <div class="lg:flex flex-col items-center  p-0 gap-[6px] md:flex justify-between ">
                     <div class=" mt-3 ">
                         <p class="uppercase text-blue-800 md:text-xl sm:text-sm">Plan your next trip</p>
@@ -578,7 +585,7 @@ not responsive -->
                     <div class="flex flex-row flex-start p-0 gap-[11px] justify-between mt-2">
                         <!-- /* Stay Details */ -->
                         <div class="flex flex-col flex-start p-0 gap-[6px] ">
-                            <p>2-Story beachfront suite</p>
+                            <p>2-Story  suite</p>
                             <p class="text-xl font-semibold">Discvoery Shores</p>
                             <p>$360/night</p>
                         </div>
@@ -777,6 +784,13 @@ not responsive -->
 // import Palawanimage from "../assets/Palawanimage.png"
 </script>
 <style scoped>
+
+.drop{
+    appearance: none;
+}
+
+
+
 * {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
