@@ -366,7 +366,7 @@ not responsive -->
             </div>
             <!-- /* Cards Container */ -->
             <!-- /* ParisImage */ -->
-            <div class=" ms-3 mt-0  left-[0.29px] right-[0.29px] top-0  md:flex flex-row ">
+            <div class=" ms-3 mt-0  left-[0.29px] right-[0.29px] top-0  md:flex flex-row lg:flex flex-col">
                 <div class="pe-2">
                    <div class="parisimage sm: mb-2 ">
                         <div class="flex flex-row justify-between pt-[8px] pb-[8px] ps-[12px] pe-[12px]">
