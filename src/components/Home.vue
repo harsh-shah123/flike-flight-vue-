@@ -77,7 +77,7 @@ not responsive -->
     </header>
     <!-- Search Section -->
     <main>
-        <div class="banner-gradient h-[635px] ">
+        <div class="banner-gradient h-[635px] w-full ">
             <div class="banner  h-full w-full">
                 <!-- search for flight -->
                 <div
