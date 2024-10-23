@@ -78,7 +78,7 @@ not responsive -->
     <!-- Search Section -->
     <main>
         <div class="banner-gradient h-[635px] ">
-            <div class="banner  h-full">
+            <div class="banner  h-full w-full">
                 <!-- search for flight -->
                 <div
                     class="flex flex-col items-center justify-center h-4/5 p-5 md:p-10   font-mono font-extrabold text-white">
