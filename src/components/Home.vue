@@ -77,8 +77,8 @@ not responsive -->
     </header>
     <!-- Search Section -->
     <main>
-        <div class="banner-gradient h-[635px] w-full ">
-            <div class="banner  h-full w-full">
+        <div class="banner-gradient md:h-[635px] w-full ">
+            <div class="banner  h-full w-[100%]">
                 <!-- search for flight -->
                 <div
                     class="flex flex-col items-center justify-center h-4/5 p-5 md:p-10   font-mono font-extrabold text-white">
@@ -344,7 +344,7 @@ not responsive -->
         <!-- Plan your next trip -->
         <div class="flex flex-col p-0 gap-[24px] flex-start mt-3 ">
             <div class="flex flex-row items-center p-0 justify-between sm:w-[100%] sm:justify-between">
-                <div class="flex flex-col items-center  p-0 gap-[6px] md:flex justify-between">
+                <div class="lg:flex flex-col items-center  p-0 gap-[6px] md:flex justify-between ">
                     <div class=" mt-3 ">
                         <p class="uppercase text-blue-800 md:text-xl sm:text-sm">Plan your next trip</p>
                         <p class="font-bold text-slate-950 sm:text-sm	 md:text-2xl">Most Popular Destinations</p>
