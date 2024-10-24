@@ -82,7 +82,8 @@ not responsive -->
                 <!-- search for flight -->
                 <div
                     class="flex flex-col items-center justify-center h-4/5 p-5 md:p-10   font-mono font-extrabold text-white">
-                    <p style="font-family: 'Baloo Bhai';" class=" md:text-5xl text-center sm:text-center sm:text-sm sm:flex items-center mt-[100px]">
+                    <p style="font-family: 'Baloo Bhai';"
+                        class=" md:text-5xl text-center sm:text-center sm:text-sm sm:flex items-center mt-[100px]">
                         Let’s explore & travel the world
                     </p>
                     <p class="text-center mt-3">
@@ -100,42 +101,46 @@ not responsive -->
                                 <input type="radio" name="flight" id="oneway">
                                 <label for="oneway">
                                     One-way
-                               </label>
-                           </div>
+                                </label>
+                            </div>
                         </div>
-                        <div class="flex flex-col md:flex-row ms-3 text-center gap-5">
-                            <div class="relative mb-3 pt-2 w-full max-w-xs">
-                                <select  class="drop peer block min-h-[auto] border-[1px] rounded border-gray-400 ms-2 px-3 py-[0.32rem]  text-black w-[250px]">
+                        <form action="" method="get">
+                            <div class="flex flex-col md:flex-row ms-3 text-center gap-5">
+                                <div class="relative mb-3 pt-2 w-full max-w-xs">
+                                    <select
+                                        class="drop peer block min-h-[auto] border-[1px] rounded border-gray-400 ms-2 px-3 py-[0.32rem]  text-black w-[250px]">
+                                        <option value="" class="hidden"></option>
                                         <option value="London">London</option>
                                         <option value="America">America</option>
                                         <option value="India">India</option>
                                         <option value="England">England</option>
                                     </select>
-                                <label
-                                    class="pointer-events-none absolute left-3 top-[-0.3rem] mb-0 max-w-[90%] origin-[0_0] truncate bg-white px-1 text-neutral-500 ">Departure
-                                </label>
-                            </div>
-                            <div class="relative mb-3 pt-2 w-full max-w-xs">
-                               
-                                    <select  class="drop peer block min-h-[auto] border-[1px] rounded border-gray-400 ms-2 px-3 py-[0.32rem] w-[250px] text-black">
+                                    <label
+                                        class="pointer-events-none absolute left-3 top-[-0.3rem] mb-0 max-w-[90%] origin-[0_0] truncate bg-white px-1 text-neutral-500 ">Departure
+                                    </label>
+                                </div>
+                                <div class="relative mb-3 pt-2 w-full max-w-xs">
+
+                                    <select
+                                        class="drop peer block min-h-[auto] border-[1px] rounded border-gray-400 ms-2 px-3 py-[0.32rem] w-[250px] text-black">
+                                        <option value="" class="hidden"></option>
                                         <option value="Tampines">Tampines</option>
                                         <option value="Kampong Glam">Kampong Glam</option>
                                         <option value="Ang Mo Kio">Ang Mo Kio</option>
                                         <option value="Jurong">Jurong</option>
                                     </select>
-                                <label
-                                    class="pointer-events-none absolute left-3 top-[-0.3rem] mb-0 max-w-[90%] origin-[0_0] truncate bg-white px-1 text-neutral-500">Arrival
-                                </label>
-                            </div>
-                            <div class="relative mb-3 pt-2 w-full max-w-xs">
-                                <input type="date"
-                                    class="peer block min-h-[auto] border-[1px] rounded border-gray-400 ms-2 px-3 py-[0.32rem] text-black w-[250px]"
-                                    />
-                                <label
-                                    class="pointer-events-none absolute left-3 top-[-0.3rem]  origin-[0_0] truncate bg-white px-1 text-neutral-500">Date
-                                </label>
-                                <div class="absolute inset-y-0 right-0 flex items-center ">
-                                    <!-- <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                                    <label
+                                        class="pointer-events-none absolute left-3 top-[-0.3rem] mb-0 max-w-[90%] origin-[0_0] truncate bg-white px-1 text-neutral-500">Arrival
+                                    </label>
+                                </div>
+                                <div class="relative mb-3 pt-2 w-full max-w-xs">
+                                    <input type="date"
+                                        class="peer block min-h-[auto] border-[1px] rounded border-gray-400 ms-2 px-3 py-[0.32rem] text-black w-[250px]" />
+                                    <label
+                                        class="pointer-events-none absolute left-3 top-[-0.3rem]  origin-[0_0] truncate bg-white px-1 text-neutral-500">Date
+                                    </label>
+                                    <div class="absolute inset-y-0 right-0 flex items-center ">
+                                        <!-- <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <g opacity="0.5">
                                             <path
@@ -143,15 +148,16 @@ not responsive -->
                                                 fill="black" fill-opacity="0.54" />
                                         </g>
                                     </svg> -->
+                                    </div>
+                                </div>
+                                <div class="ps-1 pt-1">
+                                    <button type="submit"
+                                        class="text-white w-[150px] flex h-3/4 items-center justify-center bg-[#FF9119] rounded  text-center  me-2 mb-2">
+                                        SEARCH FLIGHTS
+                                    </button>
                                 </div>
                             </div>
-                            <div class="ps-1 pt-1">
-                                <button type="button"
-                                    class="text-white w-[150px] flex h-3/4 items-center justify-center bg-[#FF9119] rounded  text-center  me-2 mb-2">
-                                    SEARCH FLIGHTS
-                                </button>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
@@ -204,7 +210,7 @@ not responsive -->
                                     </svg>
                                 </div>
                             </div>
-                       </div>
+                        </div>
                         <div>
                             <p class="top-0 left-0 font-black-900 md:text-xl font-semibold sm:text-sm">LAX</p>
                         </div>
@@ -233,7 +239,7 @@ not responsive -->
                                             stroke-width="2" />
                                     </svg>
                                 </div>
-                               <!-- Dashed Line with Airplane -->
+                                <!-- Dashed Line with Airplane -->
                                 <div class="relative w-full h-0 flex items-center justify-center">
                                     <!-- Dashed Line -->
                                     <div class="absolute w-full border-t-2 border-dashed border-slate-600"></div>
@@ -269,7 +275,7 @@ not responsive -->
             </div>
         </div>
         <!-- prepare your trip -->
-        <div class="">
+        <div >
             <p
                 class="sm:text-sm text-center  md:text-xl  sm:p-0 sm:m-0 uppercase text-slate-400 sm:text-left md:text-left lg:text-left ">
                 Prepare for your trip</p>
@@ -315,7 +321,7 @@ not responsive -->
                     <p class="text-center text-slate-300">Eats</p>
                 </div>
                 <div>
-                   <div class="back3 flex items-center justify-center w-[65.39px] h-[65.39px] left-0 top-0">
+                    <div class="back3 flex items-center justify-center w-[65.39px] h-[65.39px] left-0 top-0">
                         <svg width="28" height="32" viewBox="0 0 28 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M0.618164 23.6668C0.618164 25.1335 1.27429 26.4502 2.30053 27.3668V29.5002C2.30053 30.8835 3.42771 32.0002 4.82408 32.0002C6.22044 32.0002 7.34763 30.8835 7.34763 29.5002V28.6668H20.8065V29.5002C20.8065 30.8668 21.9337 32.0002 23.3301 32.0002C24.7096 32.0002 25.8536 30.8835 25.8536 29.5002V27.3668C26.8799 26.4502 27.536 25.1335 27.536 23.6668V7.00016C27.536 1.16683 21.5131 0.333496 14.0771 0.333496C6.64103 0.333496 0.618164 1.16683 0.618164 7.00016V23.6668ZM6.50644 25.3335C5.11008 25.3335 3.98289 24.2168 3.98289 22.8335C3.98289 21.4502 5.11008 20.3335 6.50644 20.3335C7.90281 20.3335 9.02999 21.4502 9.02999 22.8335C9.02999 24.2168 7.90281 25.3335 6.50644 25.3335ZM21.6477 25.3335C20.2514 25.3335 19.1242 24.2168 19.1242 22.8335C19.1242 21.4502 20.2514 20.3335 21.6477 20.3335C23.0441 20.3335 24.1713 21.4502 24.1713 22.8335C24.1713 24.2168 23.0441 25.3335 21.6477 25.3335ZM24.1713 15.3335H3.98289V7.00016H24.1713V15.3335Z"
@@ -336,7 +342,7 @@ not responsive -->
                 </div>
                 <div>
                     <div class="back5 flex items-center justify-center w-[65.39px] h-[65.39px] left-0 top-0">
-                      <!-- /* Vector */ -->
+                        <!-- /* Vector */ -->
                         <svg width="27" height="24" viewBox="0 0 27 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
                                 d="M23.7497 0.0537109H2.86238C1.42246 0.0537109 0.251465 1.21378 0.251465 2.64027V20.7462C0.251465 22.1727 1.42246 23.3327 2.86238 23.3327H23.7497C25.1896 23.3327 26.3606 22.1727 26.3606 20.7462V2.64027C26.3606 1.21378 25.1896 0.0537109 23.7497 0.0537109ZM23.751 7.81339C23.7497 7.81339 23.7497 7.81339 23.751 7.81339H23.1439L19.6623 2.64027H23.7497L23.751 7.81339ZM17.8751 15.5731L10.6951 19.4529V11.6932L17.8751 15.5731ZM16.6167 7.81339L13.135 2.64027H16.524L20.0056 7.81339H16.6167ZM13.4784 7.81339H10.0894L6.60773 2.64027H9.9967L13.4784 7.81339ZM2.86238 2.64027H3.46942L6.95107 7.81339H2.86238V2.64027Z"
@@ -375,7 +381,7 @@ not responsive -->
             <!-- /* ParisImage */ -->
             <div class=" ms-3 mt-0  left-[0.29px] right-[0.29px] top-0  md:flex flex-row w-full">
                 <div class="pe-2">
-                   <div class="parisimage sm: mb-2 ">
+                    <div class="parisimage sm: mb-2 ">
                         <div class="flex flex-row justify-between pt-[8px] pb-[8px] ps-[12px] pe-[12px]">
                             <div class="font-semibold text-xl text-white">Paris</div>
                             <div class=" text-right text-white">
@@ -392,7 +398,7 @@ not responsive -->
                         <div class="flex flex-row justify-between pt-[8px] pb-[8px] ps-[12px] pe-[12px]">
                             <div class="font-semibold text-xl text-white">Greece</div>
                             <div class=" text-right  text-white">
-                                <p class="">
+                                <p >
                                     FROM
                                 </p>
                                 <p class="text-2xl">$995</p>
@@ -438,7 +444,7 @@ not responsive -->
                 </div>
                 <div class="flex flex-row justify-center items-center text-blue-800  sm:text-sm md:text-xl text-right">
                     <div class="pe-3">
-                        <p class="">View all destinations </p>
+                        <p >View all destinations </p>
                     </div>
                     <div>
                         <svg width="19" height="17" viewBox="0 0 19 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -475,7 +481,7 @@ not responsive -->
                             <div class="flex flex-col items-center p-0 gap-[6px]">
                                 <div class=" mt-3 ">
                                     <p class="font-bold">Swiss</p>
-                                    <p class="">6D5N</p>
+                                    <p >6D5N</p>
                                 </div>
                             </div>
                             <div>
@@ -486,12 +492,12 @@ not responsive -->
                 </div>
                 <div class="pe-2">
                     <div class="w-fit">
-                        <img src="../assets/BoracayImage.png" alt="borcay" class="">
+                        <img src="../assets/BoracayImage.png" alt="borcay" >
                         <div class="flex flex-row items-center p-0 justify-between  pb-[8px]">
                             <div class="flex flex-col items-center p-0 gap-[6px]">
                                 <div class=" mt-3 ">
                                     <p class="font-bold">Borcay</p>
-                                    <p class="">5D4N</p>
+                                    <p >5D4N</p>
                                 </div>
                             </div>
                             <div>
@@ -502,12 +508,12 @@ not responsive -->
                 </div>
                 <div class="pe-2">
                     <div class="w-fit">
-                        <img src="../assets/PalawanImage.png" alt="unsplash" class="">
+                        <img src="../assets/PalawanImage.png" alt="unsplash" >
                         <div class="flex flex-row items-center p-0 justify-between   pb-[8px] ">
                             <div class="flex flex-col items-center p-0 gap-[6px]">
                                 <div class=" mt-3 ">
                                     <p class="font-bold">Palawan</p>
-                                    <p class="">4CDN</p>
+                                    <p >4CDN</p>
                                 </div>
                             </div>
                             <div>
@@ -585,7 +591,7 @@ not responsive -->
                     <div class="flex flex-row flex-start p-0 gap-[11px] justify-between mt-2">
                         <!-- /* Stay Details */ -->
                         <div class="flex flex-col flex-start p-0 gap-[6px] ">
-                            <p>2-Story  suite</p>
+                            <p>2-Story suite</p>
                             <p class="text-xl font-semibold">Discvoery Shores</p>
                             <p>$360/night</p>
                         </div>
@@ -599,7 +605,7 @@ not responsive -->
                                     d="M9.87124 7.88667C10.0101 7.81516 10.166 7.78336 10.3218 7.79474C10.4775 7.80612 10.6271 7.86026 10.7541 7.95118L16.6965 12.1957C16.8065 12.2743 16.8962 12.3779 16.9581 12.4981C17.02 12.6183 17.0523 12.7516 17.0523 12.8867C17.0523 13.0219 17.02 13.1552 16.9581 13.2754C16.8962 13.3956 16.8065 13.4992 16.6965 13.5778L10.7541 17.8223C10.6272 17.9132 10.4776 17.9673 10.3219 17.9786C10.1663 17.99 10.0105 17.9583 9.87164 17.8868C9.73284 17.8154 9.61641 17.7071 9.53517 17.5738C9.45392 17.4405 9.41101 17.2874 9.41113 17.1313V8.6422C9.41097 8.48614 9.45383 8.33305 9.535 8.19976C9.61617 8.06648 9.73251 7.95814 9.87124 7.88667Z"
                                     fill="#1262AF" />
                             </svg>
-                       </div>
+                        </div>
                     </div>
                     <div class="flex mt-2 items-center">
                         <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -638,7 +644,7 @@ not responsive -->
                                     d="M9.87124 7.88667C10.0101 7.81516 10.166 7.78336 10.3218 7.79474C10.4775 7.80612 10.6271 7.86026 10.7541 7.95118L16.6965 12.1957C16.8065 12.2743 16.8962 12.3779 16.9581 12.4981C17.02 12.6183 17.0523 12.7516 17.0523 12.8867C17.0523 13.0219 17.02 13.1552 16.9581 13.2754C16.8962 13.3956 16.8065 13.4992 16.6965 13.5778L10.7541 17.8223C10.6272 17.9132 10.4776 17.9673 10.3219 17.9786C10.1663 17.99 10.0105 17.9583 9.87164 17.8868C9.73284 17.8154 9.61641 17.7071 9.53517 17.5738C9.45392 17.4405 9.41101 17.2874 9.41113 17.1313V8.6422C9.41097 8.48614 9.45383 8.33305 9.535 8.19976C9.61617 8.06648 9.73251 7.95814 9.87124 7.88667Z"
                                     fill="#1262AF" />
                             </svg>
-                       </div>
+                        </div>
                     </div>
                     <div class="flex mt-2 items-center">
                         <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -677,7 +683,7 @@ not responsive -->
                                     d="M9.87124 7.88667C10.0101 7.81516 10.166 7.78336 10.3218 7.79474C10.4775 7.80612 10.6271 7.86026 10.7541 7.95118L16.6965 12.1957C16.8065 12.2743 16.8962 12.3779 16.9581 12.4981C17.02 12.6183 17.0523 12.7516 17.0523 12.8867C17.0523 13.0219 17.02 13.1552 16.9581 13.2754C16.8962 13.3956 16.8065 13.4992 16.6965 13.5778L10.7541 17.8223C10.6272 17.9132 10.4776 17.9673 10.3219 17.9786C10.1663 17.99 10.0105 17.9583 9.87164 17.8868C9.73284 17.8154 9.61641 17.7071 9.53517 17.5738C9.45392 17.4405 9.41101 17.2874 9.41113 17.1313V8.6422C9.41097 8.48614 9.45383 8.33305 9.535 8.19976C9.61617 8.06648 9.73251 7.95814 9.87124 7.88667Z"
                                     fill="#1262AF" />
                             </svg>
-                       </div>
+                        </div>
                     </div>
                     <div class="flex mt-2 items-center">
                         <svg width="17" height="18" viewBox="0 0 17 18" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -760,7 +766,7 @@ not responsive -->
                     <p>Careers</p>
                     <p>How we work</p>
                 </div>
-              <!-- Support Section -->
+                <!-- Support Section -->
                 <div class="flex flex-col">
                     <p class="mb-2 font-semibold">Support</p>
                     <p>Account</p>
@@ -783,17 +789,16 @@ not responsive -->
 <script setup>
 // import Palawanimage from "../assets/Palawanimage.png"
 </script>
-<style scoped>
 
-.drop{
+<style scoped>
+.drop {
     appearance: none;
 }
 
-
-
-* {
+*{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
+
 .banner {
     /* Banner Background */
     background: url('../assets/BanneBackground.png') no-repeat center center;
@@ -831,8 +836,6 @@ not responsive -->
     /* Background */
     width: 70px;
     height: 65.39px;
-    left: 0px;
-    top: 0px;
     background: #4DABFF;
     border-radius: 16px;
 }
@@ -845,55 +848,32 @@ not responsive -->
 
 .parisimage {
     /* position: absolute; */
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
+
     background: url('../assets/ParisImage.png'), #C4C4C4;
     width: 288px;
     height: 182px;
-    gap: 0px;
-    opacity: 0px;
+
     border-radius: 10px;
 }
 
 .greeceimage {
     /* GreeceImage */
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
     width: 288px;
     height: 182px;
-    gap: 0px;
-    opacity: 0px;
     border-radius: 10px;
     background: url('../assets/GreeceImage.png'), #C4C4C4;
 }
 
 .norwayimage {
-    /*  */
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
     width: 288px;
     height: 182px;
-    gap: 0px;
-    opacity: 0px;
     border-radius: 10px;
     background: url('../assets/NorwayImage.png'), #C4C4C4;
 }
 
 .tuscayimage {
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
     width: 288px;
     height: 182px;
-    gap: 0px;
-    opacity: 0px;
     border-radius: 10px;
     background: url('../assets/TuscanyImage.png'), #C4C4C4;
 }
@@ -906,24 +886,24 @@ not responsive -->
     background: url('../assets/Subscribe.png') center center / cover no-repeat;
     /* Ensures full background coverage */
     background-position: center;
-    padding: 20px;
+    /* padding: 20px; */
     /* Ensures padding around the content */
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
+    box-sizing: border-box; */
 }
 
 .color2 {
     /* Gradient section */
-    padding-top: 20px;
+    /* padding-top: 20px; */
     gap: 20px;
-    padding-right: 0;
+    /* padding-right: 0; */
     background: linear-gradient(91.74deg, #0B5BA8 30.91%, #299BD8 100.98%);
-    background-size: cover;
-    background-position: center;
-    box-sizing: border-box;
+    /* background-size: cover; */
+    /* background-position: center; */
+    /* box-sizing: border-box; */
 }
 
 .line {

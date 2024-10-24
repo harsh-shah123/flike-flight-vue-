@@ -17,7 +17,7 @@
                         </defs>
                     </svg>
                 </div>
-                <div class="flex flex-col md:flex-row md:gap-4 items-center w-full md:w-auto mt-4 md:mt-0 ">
+                <div class="flex flex-col md:flex-row md:gap-4 items-center w-full md:w-auto mt-4 md:mt-0">
                     <router-link to="/"
                         class="text-sm lg:text-base hover:border-b-2 hover:border-blue-600 hover:pb-2">Home</router-link>
                     <router-link to="/Result"
@@ -25,8 +25,8 @@
                     <a href="#"
                         class="text-sm lg:text-base hover:border-b-2 hover:border-blue-600 hover:pb-2">Hotels</a>
                     <a href="#"
-                        class="text-sm lg:text-base hover:border-b-2 hover:border-blue-600 hover:pb-2  ">Offers</a>
-                    <div class=" ps-2 w-[24px] h-[24px] hover:scale-x-125 hover:scale-y-125 hover:animate-bounce">
+                        class="text-sm lg:text-base hover:border-b-2 hover:border-blue-600 hover:pb-2">Offers</a>
+                    <div class="ps-2 w-[24px] h-[24px] hover:scale-x-125 hover:scale-y-125 hover:animate-bounce">
                         <!-- <img src="../assets/notification-bell.png" alt="notification" class="max-w-full h-auto"> -->
                         <svg width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -37,9 +37,8 @@
                                 fill="#424242" />
                             <circle cx="18.4565" cy="5.93701" r="3.5" fill="#F99A0E" stroke="white" />
                         </svg>
-
                     </div>
-                    <div class=" hover:scale-x-125 hover:scale-y-125 hover:animate-bounce">
+                    <div class="hover:scale-x-125 hover:scale-y-125 hover:animate-bounce">
                         <svg width="36" height="37" viewBox="0 0 36 37" fill="none" xmlns="http://www.w3.org/2000/svg"
                             xmlns:xlink="http://www.w3.org/1999/xlink">
                             <rect y="0.5" width="36" height="36" rx="18" fill="url(#pattern0_1003_3865)" />
@@ -54,64 +53,57 @@
                                     xlink:href="data:image/jpeg;base64,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" />
                             </defs>
                         </svg>
-
                     </div>
                 </div>
             </div>
         </section>
     </header>
 
-
-
-
-
     <!-- Search Section -->
     <section>
         <div class="banner-gradient">
-            <div class="banner">
+            <div class="banner h-[350px] relative">
                 <!-- Search for flight -->
                 <div class="flex flex-col justify-center px-5 lg:px-20 pt-7 h-3/4 font-mono font-extrabold text-white">
-                    <p class="text-3xl lg:text-5xl">
-                        Where are you off to?
-                    </p>
-
+                    <p class="text-3xl lg:text-5xl">Where are you off to?</p>
                     <!-- Search form -->
-                    <div class="mt-4 bg-white rounded-lg text-center">
-
-                        <div class="flex flex-col md:flex-row ms-3 text-center gap-5 p-3 pt-4">
-                            <div class="relative mb-3 pt-2 w-full max-w-xs">
-                                <select
-                                    class="drop peer block min-h-[auto] border-[1px] rounded border-gray-400 ms-2 px-3 py-[0.32rem]  text-black w-[250px]">
-                                    <option value="London">London</option>
-                                    <option value="America">America</option>
-                                    <option value="India">India</option>
-                                    <option value="England">England</option>
-                                </select>
-                                <label
-                                    class="pointer-events-none absolute left-3 top-[-0.3rem] mb-0 max-w-[90%] origin-[0_0] truncate bg-white px-1 text-neutral-500 ">Departure
-                                </label>
-                            </div>
-                            <div class="relative mb-3 pt-2 w-full max-w-xs">
-
-                                <select
-                                    class="drop peer block min-h-[auto] border-[1px] rounded border-gray-400 ms-2 px-3 py-[0.32rem] w-[250px] text-black">
-                                    <option value="Tampines">Tampines</option>
-                                    <option value="Kampong Glam">Kampong Glam</option>
-                                    <option value="Ang Mo Kio">Ang Mo Kio</option>
-                                    <option value="Jurong">Jurong</option>
-                                </select>
-                                <label
-                                    class="pointer-events-none absolute left-3 top-[-0.3rem] mb-0 max-w-[90%] origin-[0_0] truncate bg-white px-1 text-neutral-500">Arrival
-                                </label>
-                            </div>
-                            <div class="relative mb-3 pt-2 w-full max-w-xs">
-                                <input type="date"
-                                    class="peer block min-h-[auto] border-[1px] rounded border-gray-400 ms-2 px-3 py-[0.32rem] text-black w-[250px]" />
-                                <label
-                                    class="pointer-events-none absolute left-3 top-[-0.3rem]  origin-[0_0] truncate bg-white px-1 text-neutral-500">Date
-                                </label>
-                                <div class="absolute inset-y-0 right-0 flex items-center ">
-                                    <!-- <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
+                    <div class="mt-4 bg-white w-fit p-3 rounded-lg text-center">
+                        <form action="" method="get">
+                            <div class="flex flex-col md:flex-row text-center pt-3">
+                                <div class="relative mb-3 pt-2">
+                                    <select
+                                        class="drop peer block min-h-[auto] border-[1px] rounded border-gray-400 ms-2 px-3 py-[0.32rem] text-black w-[250px]">
+                                        <option value="" class="hidden"></option>
+                                        <option value="London">London</option>
+                                        <option value="America">America</option>
+                                        <option value="India">India</option>
+                                        <option value="England">England</option>
+                                    </select>
+                                    <label
+                                        class="pointer-events-none absolute left-3 top-[-0.3rem] mb-0 max-w-[90%] origin-[0_0] truncate bg-white px-1 text-neutral-500">Departure
+                                    </label>
+                                </div>
+                                <div class="relative mb-3 pt-2">
+                                    <select
+                                        class="drop peer block min-h-[auto] border-[1px] rounded border-gray-400 ms-2 px-3 py-[0.32rem] w-[250px] text-black">
+                                        <option value="" class="hidden"></option>
+                                        <option value="Tampines">Tampines</option>
+                                        <option value="Kampong Glam">Kampong Glam</option>
+                                        <option value="Ang Mo Kio">Ang Mo Kio</option>
+                                        <option value="Jurong">Jurong</option>
+                                    </select>
+                                    <label
+                                        class="pointer-events-none absolute left-3 top-[-0.3rem] mb-0 max-w-[90%] origin-[0_0] truncate bg-white px-1 text-neutral-500">Arrival
+                                    </label>
+                                </div>
+                                <div class="relative mb-3 pt-2">
+                                    <input type="date"
+                                        class="peer block min-h-[auto] border-[1px] rounded border-gray-400 ms-2 px-3 py-[0.32rem] text-black w-[250px]" />
+                                    <label
+                                        class="pointer-events-none absolute left-3 top-[-0.3rem] origin-[0_0] truncate bg-white px-1 text-neutral-500">Date
+                                    </label>
+                                    <div class="absolute inset-y-0 right-0 flex items-center">
+                                        <!-- <svg width="24" height="25" viewBox="0 0 24 25" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <g opacity="0.5">
                                             <path
@@ -119,93 +111,77 @@
                                                 fill="black" fill-opacity="0.54" />
                                         </g>
                                     </svg> -->
+                                    </div>
+                                </div>
+                                <div class="ps-1 pt-2">
+                                    <button type="submit"
+                                        class="text-white w-[150px] flex h-3/4 items-center justify-center bg-[#FF9119] rounded text-center">
+                                        SEARCH FLIGHTS
+                                    </button>
                                 </div>
                             </div>
-                            <div class="ps-1 pt-1">
-                                <button type="button"
-                                    class="text-white w-[150px] flex h-3/4 items-center justify-center bg-[#FF9119] rounded  text-center  me-2 mb-2">
-                                    SEARCH FLIGHTS
-                                </button>
-                            </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-
     <!-- Search filters -->
     <section>
         <div class="md:flex flex-row flex-start pt-[50px] pb-[50px] ps-[80px] pe-[80px]">
-
-            <div class="sm: flex flex-col  p-0 gap-[20px] me-12 md:text-left sm:text-center ">
+            <div class="sm: flex flex-col p-0 gap-[20px] me-12 md:text-left sm:text-center">
                 <div class="pt-2">
                     <p>10 out of 177 Results</p>
                 </div>
                 <div>
                     <p class="font-semibold text-2xl md:pb-4 sm:pd-2">Stops</p>
                     <div class="font-medium text-lg">
-
-                        <input type="checkbox" name="stop1" id=""> 1 Stop
+                        <input type="checkbox" name="stop1" id="" /> 1 Stop
                     </div>
                     <div class="font-medium text-lg">
-
-                        <input type="checkbox" name="stop2" id=""> 2 Stop
+                        <input type="checkbox" name="stop2" id="" /> 2 Stop
                     </div>
-
                 </div>
-                <div class="">
+                <div  >
                     <p class="font-semibold text-2xl md:pb-4 sm:pd-2">Booking Options</p>
-                    <div class="font-medium text-lg">
-
-                        <input type="checkbox" name="stop1" id=""> Book On Flickle Flats
+                    <div class="font-medium text-lg text-nowrap">
+                        <input type="checkbox" name="stop1" id="" /> Book On Flickle Flats
                     </div>
                     <div class="font-medium text-lg">
-
-                        <input type="checkbox" name="stop2" id=""> Official Website
+                        <input type="checkbox" name="stop2" id="" /> Official Website
                     </div>
                 </div>
-                <div class="">
-                    <p class="font-semibold text-2xl md:pb-4 sm:pd-2">Flight Experience</p>
+                <div >
+                    <p class="font-semibold text-2xl md:pb-4 sm:pd-2">
+                        Flight Experience
+                    </p>
                     <div class="font-medium text-lg">
-
-                        <input type="checkbox" name="stop1" id=""> No overnight flights
+                        <input type="checkbox" name="stop1" id="" /> No overnight flights
                     </div>
                     <div class="font-medium text-lg">
-
-                        <input type="checkbox" name="stop2" id=""> No long stop-overs
+                        <input type="checkbox" name="stop2" id="" /> No long stop-overs
                     </div>
                 </div>
-                <div class="">
+                <div >
                     <p class="font-semibold text-2xl md:pb-4 sm:pd-2">AirLines</p>
                     <div class="font-medium text-lg">
-
-                        <input type="checkbox" name="stop1" id=""> Singapore Airlines
+                        <input type="checkbox" name="stop1" id="" /> Singapore Airlines
                     </div>
                     <div class="font-medium text-lg">
-                        <input type="checkbox" name="stop2" id=""> Qatar Airlines
+                        <input type="checkbox" name="stop2" id="" /> Qatar Airlines
                     </div>
                 </div>
             </div>
             <!-- Result Secation -->
-            <div class='pt-2'>
-
-                <div class="md:flex flex-row  gap-[24px] sm:flex-col">
-                    <div class="sm:flex flex-col  gap-[12px] text-stone-600  box-border ">
+            <div class="pt-2">
+                <div class="md:flex flex-row gap-[24px] sm:flex-col">
+                    <div class="sm:flex flex-col gap-[12px] text-stone-600 box-border">
                         <p class="pb-2 pt-0">10 out of 177 Results</p>
                         <!-- aaiya turkish valu copy paste karine mukvu from copy.vue -->
                         <!-- /* flight-card */ -->
-                
-
-
-
-
-
-
                         <div
-                            class="  items-center p-2 h-auto border-2 border-stone-300 rounded sm:flex flex-row justify-between md:flex flex-row items-center sm:box-content ">
-
+                            class="items-center p-2 h-[100px] border-2 border-stone-300 rounded sm:flex flex-row justify-between md:flex flex-row items-center">
                             <div class="pe-2">
                                 <svg width="35" height="46" viewBox="0 0 35 46" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
@@ -216,26 +192,17 @@
                                         d="M18.9612 39.0026L23.0691 33.0292C23.0691 33.0292 24.2683 30.5646 27.3663 30.5646H31.7266L34.7668 35.1375C34.7668 35.1375 32.3683 34.9016 31.2953 36.533L26.814 42.9832C26.814 42.9832 25.3518 46 21.4438 46H0.331111L8.36277 34.234C8.36277 34.234 9.49888 32.8536 7.91043 30.5646L0.762412 19.6017C0.762412 19.6017 -0.994349 17.9804 0.825529 15.2045L2.91365 12.1877L12.8441 27.5528C12.8441 27.5528 14.6008 29.6611 12.8441 32.191L5.38574 43.2894H21.1124C21.1124 43.2894 22.885 43.6006 24.4103 41.4321L28.3183 35.6947C28.3183 35.6947 29.2072 33.7621 31.1691 32.974H28.008C28.008 32.974 26.3564 33.0343 25.0993 34.9066L21.6279 40.0316C21.6279 40.0316 20.3655 42.2001 17.5779 42.2001H12.0814L18.714 32.3767C18.714 32.3767 22.3274 27.844 19.787 23.6827L8.79407 6.32977C8.79407 6.32977 7.96829 4.8289 8.9203 3.43343L11.3188 0L23.837 19.2403C23.837 19.2403 25.6726 22.1216 25.6726 24.3503C25.6726 26.579 24.2104 29.1039 23.4004 30.3839L17.8882 38.586C17.8882 38.586 17.2675 39.3741 17.7041 39.6702C18.1512 39.9664 18.5877 39.4343 18.9612 39.0026Z"
                                         fill="#FCB130" />
                                 </svg>
-
                             </div>
-                            <div class=" pe-2">
-                                <p class="ps-0  text-base">
-                                    Singapore Airlines
-
+                            <div class="pe-2">
+                                <p class="ps-0 text-base text-nowrap">Singapore Airlines</p>
+                            </div>
+                            <div class="flex flex-col p-0 mt-0 gap-[10px] ps-2">
+                                <p class="text-lg text-nowrap font-bold text-blue-900">
+                                    8.45 PM
                                 </p>
-                            </div>
-                            <div class=" flex flex-col p-0 mt-0 gap-[10px] ps-2">
-
-
-                                <p class="text-lg font-bold text-blue-900">8.45 PM</p>
-
-
                                 SIN
-
-
-
                             </div>
-                            <div class=" pe-2 flex flex-col  p-0 mt-0 gap-[10px] ps-2">
+                            <div class="pe-2 flex flex-col p-0 mt-0 gap-[10px] ps-2">
                                 <div>
                                     <!-- flight section -->
                                     <div
@@ -270,37 +237,23 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-
-                                    15H 10M, 2-stop
-                                </div>
-
-
+                                <div>15H 10M, 2-stop</div>
                             </div>
-                            <div class="flex flex-col flex-end pe-2 p-0 mt-0 gap-[10px] ps-2">
+                            <div class="flex flex-col items-end pe-2 p-0 mt-0 gap-[10px] ps-2">
                                 <div>
-
-                                    <p class="text-lg font-bold text-blue-900">7.55 PM</p>
+                                    <p class="text-lg text-nowrap font-bold text-blue-900">
+                                        7.55 PM
+                                    </p>
                                 </div>
-                                <div>
-
-                                    LAX
-                                </div>
-
-
+                                <div>LAX</div>
                             </div>
-                            <div class="line h-[122%] overflow-hidden  ">
-
-                            </div>
-                            <div class="font-semibold text-2xl text-amber-400	">
-                                <p class="ps-2">s$ 900</p>
+                            <div class="font-semibold text-2xl text-amber-400">
+                                <p class="ps-2 text-nowrap">s$ 900</p>
                             </div>
                         </div>
                         <div
-                            class=" items-center p-2 h-auto border-2 border-stone-300 rounded sm:flex flex-row justify-between   md:flex flex-row items-center sm:box-content ">
-
+                            class="justify-between p-2 h-[80px] border-2 border-stone-300 rounded sm:flex flex-row md:flex flex-row items-center sm:box-content">
                             <div class="pe-2">
-
                                 <svg width="35" height="46" viewBox="0 0 35 46" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -310,26 +263,15 @@
                                         d="M17.8187 29.9171L16.3863 33.7661C15.5607 35.9843 12.0559 35.5182 11.9326 35.5182C11.6446 35.5182 11.4244 35.4871 11.2041 35.2835L11.7287 34.7124C11.8537 34.8064 12.0493 34.8612 12.2492 34.8612C12.4126 34.8612 14.2134 35.2434 14.7503 33.7661L16.1826 29.9171H17.8187ZM27.9337 34.7437L27.692 35.3931H22.7639L24.802 29.9171H26.4557L24.6589 34.7437H27.9337ZM20.5869 29.9308L16.2208 35.4063H17.0688L18.174 33.9201H20.1517L19.8222 35.4063H21.5641L22.9021 29.9308H20.5869ZM18.7495 33.1435L21.002 30.4478L20.3815 33.1435H18.7495Z"
                                         fill="white" />
                                 </svg>
-
                             </div>
-                            <div class=" pe-2">
-                                <p class="ps-0  text-base">
-                                    Japan Airlines
-
-                                </p>
+                            <div class="pe-2">
+                                <p class="ps-0 text-base">Japan Airlines</p>
                             </div>
-                            <div class=" flex flex-col p-0 mt-0 gap-[10px] ps-2">
-
-
+                            <div class="flex flex-col p-0 mt-0 gap-[10px] ps-2">
                                 <p class="text-lg font-bold text-blue-900">7.55 PM</p>
-
-
                                 SIN
-
-
-
                             </div>
-                            <div class=" pe-2 flex flex-col  p-0 mt-0 gap-[10px] ps-2">
+                            <div class="pe-2 flex flex-col p-0 mt-0 gap-[10px] ps-2">
                                 <div>
                                     <!-- flight section -->
                                     <div
@@ -364,37 +306,21 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-
-                                    17H 30H, 1-stop
-                                </div>
-
-
+                                <div>17H 30H, 1-stop</div>
                             </div>
-                            <div class="flex flex-col flex-end pe-2 p-0 mt-0 gap-[10px] ps-2">
+                            <div class="flex flex-col items-end pe-2 p-0 mt-0 gap-[10px] ps-2">
                                 <div>
-
                                     <p class="text-lg font-bold text-blue-900">8.20 PM</p>
                                 </div>
-                                <div>
-
-                                    LAX
-                                </div>
-
-
+                                <div>LAX</div>
                             </div>
-                            <div class="line h-[122%] overflow-hidden  ">
-
-                            </div>
-                            <div class="font-semibold text-2xl text-amber-400	">
+                            <div class="font-semibold text-2xl text-amber-400">
                                 <p class="ps-2">s$ 859</p>
                             </div>
                         </div>
                         <div
-                            class=" items-center justify-center p-2 h-auto border-2 border-stone-300 rounded sm:flex flex-row md:flex flex-row items-center  sm:box-content">
-
-                            <div class="pe-2 md:ms-[-15px] sm:ms-0">
-
+                            class="items-center justify-between p-2 h-[100px] border-2 border-stone-300 rounded sm:flex flex-row md:flex flex-row items-center">
+                            <div class="pe-2 sm:ms-0">
                                 <svg width="35" height="25" viewBox="0 0 35 25" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path d="M30.7462 0.00390625L16.2886 24.4827H20.3143L34.7665 0.00390625H30.7462Z"
@@ -402,19 +328,15 @@
                                     <path d="M16.289 24.484L30.7466 0.00524902H14.6633L0.208984 24.484H16.289Z"
                                         fill="#223F9A" />
                                 </svg>
-
                             </div>
-                            <div class=" pe-20">
-                                <p class="  text-base">
-                                    ANA
-
-                                </p>
+                            <div class="md:pe-[100px] sm:pe-6">
+                                <p class="text-base">ANA</p>
                             </div>
-                            <div class=" flex flex-col gap-[8px] ps-2">
+                            <div class="flex flex-col gap-[8px] ps-2 text-nowrap pe-2">
                                 <p class="text-lg font-bold text-blue-900">9.50 PM</p>
                                 SIN
                             </div>
-                            <div class=" pe-2 flex flex-col  p-0 mt-0 gap-[10px] ps-2">
+                            <div class="pe-2 flex flex-col p-0 mt-0 gap-[10px] ps-2">
                                 <div>
                                     <!-- flight section -->
                                     <div
@@ -449,37 +371,23 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-
-                                    15H 10M, 2-stop
-                                </div>
-
-
+                                <div>15H 10M, 2-stop</div>
                             </div>
-                            <div class="flex flex-col flex-end pe-2 p-0 mt-0 gap-[10px] ps-2">
+                            <div class="flex flex-col items-end pe-2 p-0 mt-0 gap-[10px] ps-2">
                                 <div>
-
-                                    <p class="text-lg font-bold text-blue-900">4.45 PM</p>
+                                    <p class="text-lg font-bold text-blue-900 text-nowrap">
+                                        4.45 PM
+                                    </p>
                                 </div>
-                                <div>
-
-                                    LAX
-                                </div>
-
-
+                                <div>LAX</div>
                             </div>
-                            <div class="line h-[122%] overflow-hidden  ">
-
-                            </div>
-                            <div class="font-semibold text-2xl text-amber-400	">
-                                <p class="ps-2">s$ 723</p>
+                            <div class="font-semibold text-2xl text-amber-400 text-nowrap">
+                                <p class="ps-7">s$ 723</p>
                             </div>
                         </div>
                         <div
-                            class=" items-center p-2 h-auto border-2 border-stone-300 rounded sm:flex flex-row  justify-center">
-
+                            class="items-center justify-between p-2 h-[100px] border-2 border-stone-300 rounded sm:flex flex-row justify-center">
                             <div class="pe-2">
-
                                 <svg width="35" height="36" viewBox="0 0 35 36" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
@@ -517,26 +425,15 @@
                                         </linearGradient>
                                     </defs>
                                 </svg>
-
                             </div>
-                            <div class=" pe-2">
-                                <p class="ps-0  text-base">
-                                    American Airlines
-
-                                </p>
+                            <div class="pe-2">
+                                <p class="ps-0 text-base">American Airlines</p>
                             </div>
-                            <div class=" flex flex-col p-0 mt-0 gap-[10px] ps-2">
-
-
+                            <div class="flex flex-col p-0 mt-0 gap-[10px] ps-2">
                                 <p class="text-lg font-bold text-blue-900">8.20 PM</p>
-
-
                                 SIN
-
-
-
                             </div>
-                            <div class=" pe-2 flex flex-col  p-0 mt-0 gap-[10px] ps-2">
+                            <div class="pe-2 flex flex-col p-0 mt-0 gap-[10px] ps-2">
                                 <div>
                                     <!-- flight section -->
                                     <div
@@ -571,37 +468,21 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-
-                                    17H 10M, 1-stop
-                                </div>
-
-
+                                <div>17H 10M, 1-stop</div>
                             </div>
-                            <div class="flex flex-col flex-end pe-2 p-0 mt-0 gap-[10px] ps-2">
+                            <div class="flex flex-col items-end pe-2 p-0 mt-0 gap-[10px] ps-2">
                                 <div>
-
                                     <p class="text-lg font-bold text-blue-900">9.50 PM</p>
                                 </div>
-                                <div>
-
-                                    LAX
-                                </div>
-
-
+                                <div>LAX</div>
                             </div>
-                            <div class="line h-[122%] overflow-hidden  ">
-
-                            </div>
-                            <div class="font-semibold text-2xl text-amber-400	">
-                                <p class="ps-2">s$ 723</p>
+                            <div class="font-semibold text-2xl text-amber-400">
+                                <p class="ps-2">s$ 658</p>
                             </div>
                         </div>
                         <div
-                            class=" items-center p-2 h-auto border-2 border-stone-300 rounded sm:flex flex-row md:flex flex-row items-center sm:box-content">
-
+                            class="items-center justify-between p-2 h-[80px] border-2 border-stone-300 rounded sm:flex flex-row md:flex flex-row items-center sm:box-content">
                             <div class="pe-2">
-
                                 <svg width="35" height="36" viewBox="0 0 35 36" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -611,26 +492,15 @@
                                         d="M22.3444 14.545C21.5874 9.29753 17.164 6.70646 14.4009 5.15432C11.8366 3.71468 9.5407 3.06049 9.48531 3.22924C12.4018 5.57447 14.2745 9.22808 14.2745 13.3331C14.2745 20.0646 9.23534 25.5836 2.8335 26.0989L3.23828 26.7239C11.4339 25.4475 33.3664 21.3758 33.3664 21.3758L33.4246 20.8973L20.1181 20.4417C21.5867 18.8896 22.5922 16.2547 22.3444 14.545Z"
                                         fill="#CF4037" />
                                 </svg>
-
                             </div>
-                            <div class=" pe-2">
-                                <p class="ps-0  text-base">
-                                    Turkish Airlines
-
-                                </p>
+                            <div class="pe-2">
+                                <p class="ps-0 text-base">Turkish Airlines</p>
                             </div>
-                            <div class=" flex flex-col p-0 mt-0 gap-[10px] ps-2">
-
-
+                            <div class="flex flex-col p-0 mt-0 gap-[10px] ps-2">
                                 <p class="text-lg font-bold text-blue-900">11.35 PM</p>
-
-
                                 SIN
-
-
-
                             </div>
-                            <div class=" pe-2 flex flex-col  p-0 mt-0 gap-[10px] ps-2">
+                            <div class="pe-2 flex flex-col p-0 mt-0 gap-[10px] ps-2">
                                 <div>
                                     <!-- flight section -->
                                     <div
@@ -665,37 +535,22 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-
-                                    33H 10M, 1-stop
-                                </div>
-
-
+                                <div>33H 10M, 1-stop</div>
                             </div>
-                            <div class="flex flex-col flex-end pe-2 p-0 mt-0 gap-[10px] ps-2">
+                            <div class="flex flex-col items-end pe-2 p-0 mt-0 gap-[10px] ps-2">
                                 <div>
-
                                     <p class="text-lg font-bold text-blue-900">4.45 PM</p>
                                 </div>
-                                <div>
-
-                                    LAX
-                                </div>
-
-
+                                <div>LAX</div>
                             </div>
-                            <div class="line h-[122%] overflow-hidden  ">
 
-                            </div>
-                            <div class="font-semibold text-2xl text-amber-400	">
-                                <p class="ps-2">s$ 723</p>
+                            <div class="font-semibold text-2xl text-amber-400">
+                                <p class="ps-4">s$ 589</p>
                             </div>
                         </div>
                         <div
-                            class=" items-center p-2 h-auto border-2 border-stone-300 rounded sm:flex flex-row md:flex flex-row items-center sm:box-content">
-
+                            class="items-center justify-between p-2 h-[80px] border-2 border-stone-300 rounded sm:flex flex-row md:flex flex-row jutsify-between sm:box-content">
                             <div class="pe-2">
-
                                 <svg width="35" height="34" viewBox="0 0 35 34" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path fill-rule="evenodd" clip-rule="evenodd"
@@ -705,30 +560,19 @@
                                         d="M17.8187 23.917L16.3863 27.7659C15.5607 29.9842 12.0559 29.5181 11.9326 29.5181C11.6446 29.5181 11.4244 29.4869 11.2041 29.2834L11.7287 28.7123C11.8537 28.8063 12.0493 28.8611 12.2492 28.8611C12.4126 28.8611 14.2134 29.2433 14.7503 27.7659L16.1826 23.917H17.8187ZM27.9337 28.7436L27.692 29.3929H22.7639L24.802 23.917H26.4557L24.6589 28.7436H27.9337ZM20.5869 23.9307L16.2208 29.4062H17.0688L18.174 27.9199H20.1517L19.8222 29.4062H21.5641L22.9021 23.9307H20.5869ZM18.7495 27.1434L21.002 24.4476L20.3815 27.1434H18.7495Z"
                                         fill="white" />
                                 </svg>
-
                             </div>
-                            <div class=" pe-2">
-                                <p class="ps-0  text-base">
-                                    Japan Airlines
-
-                                </p>
+                            <div class="pe-2">
+                                <p class="ps-0 text-base">Japan Airlines</p>
                             </div>
-                            <div class=" flex flex-col p-0 mt-0 gap-[10px] ps-2">
-
-
+                            <div class="flex flex-col p-0 mt-0 gap-[10px] ps-2">
                                 <p class="text-lg font-bold text-blue-900">10.25 PM</p>
-
-
                                 SIN
-
-
-
                             </div>
-                            <div class=" pe-2 flex flex-col  p-0 mt-0 gap-[10px] ps-2">
+                            <div class="pe-2 flex flex-col p-0 mt-0 gap-[10px] ps-2">
                                 <div>
                                     <!-- flight section -->
                                     <div
-                                        class="flex flex-row justify-between text-blue-900 items-center w-[150px] p-0 border-2 border-transparent relative">
+                                        class="flex flex-row text-blue-900 items-center w-[150px] p-0 border-2 border-transparent relative">
                                         <!-- Circle -->
                                         <div>
                                             <svg width="15" height="15" viewBox="0 0 11 11" fill="none"
@@ -759,50 +603,34 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div>
-
-                                    26H 45M, 1-stop
-                                </div>
-
-
+                                <div>26H 45M, 1-stop</div>
                             </div>
-                            <div class="flex flex-col flex-end pe-2 p-0 mt-0 gap-[10px] ps-2">
+                            <div class="flex flex-col items-end pe-2 p-0 mt-0 gap-[10px] ps-2">
                                 <div>
-
                                     <p class="text-lg font-bold text-blue-900">9.10 PM</p>
                                 </div>
-                                <div>
-
-                                    LAX
-                                </div>
-
-
+                                <div>LAX</div>
                             </div>
-                            <div class="line h-[122%] overflow-hidden  ">
-
-                            </div>
-                            <div class="font-semibold text-2xl text-amber-400	">
-                                <p class="ps-2">s$ 723</p>
+                            <div class="font-semibold text-2xl text-amber-400">
+                                <p class="ps-">s$ 899</p>
                             </div>
                         </div>
-
-
                         <div class="pt-2">
-
-                            <div class="rounded bg-sky-900 w-[fit-content] p-3 ">
-                                <button type="button" class="text-white ">Show more Result</button>
+                            <div class="rounded bg-sky-900 w-[fit-content] p-3">
+                                <button type="button" class="text-white">
+                                    Show more Result
+                                </button>
                             </div>
                         </div>
-
                     </div>
-
                 </div>
             </div>
-            <div class='ps-3 pt-2 w-fit'>
-                <div class=" gap-[12px] ">
-                    <p class="text-blue-900 uppercase">recently booked</p>
-
-                    <div class="flex flex-col flex-start p-[10px] gap-[10px] w-[100%] ">
+            <div class="ps-3 pt-2 w-fit">
+                <div class="gap-[12px]">
+                    <p class="text-blue-900 uppercase text-xl font-bold">
+                        recently booked
+                    </p>
+                    <div class="flex flex-col flex-start p-[10px] gap-[10px] w-[100%]">
                         <div class="flex flex-row justify-between items-center p-0 gap-[6px]">
                             <div>
                                 <svg width="35" height="46" viewBox="0 0 35 46" fill="none"
@@ -814,46 +642,35 @@
                                         d="M18.9612 39.0026L23.0691 33.0292C23.0691 33.0292 24.2683 30.5646 27.3663 30.5646H31.7266L34.7668 35.1375C34.7668 35.1375 32.3683 34.9016 31.2953 36.533L26.814 42.9832C26.814 42.9832 25.3518 46 21.4438 46H0.331111L8.36277 34.234C8.36277 34.234 9.49888 32.8536 7.91043 30.5646L0.762412 19.6017C0.762412 19.6017 -0.994349 17.9804 0.825529 15.2045L2.91365 12.1877L12.8441 27.5528C12.8441 27.5528 14.6008 29.6611 12.8441 32.191L5.38574 43.2894H21.1124C21.1124 43.2894 22.885 43.6006 24.4103 41.4321L28.3183 35.6947C28.3183 35.6947 29.2072 33.7621 31.1691 32.974H28.008C28.008 32.974 26.3564 33.0343 25.0993 34.9066L21.6279 40.0316C21.6279 40.0316 20.3655 42.2001 17.5779 42.2001H12.0814L18.714 32.3767C18.714 32.3767 22.3274 27.844 19.787 23.6827L8.79407 6.32977C8.79407 6.32977 7.96829 4.8289 8.9203 3.43343L11.3188 0L23.837 19.2403C23.837 19.2403 25.6726 22.1216 25.6726 24.3503C25.6726 26.579 24.2104 29.1039 23.4004 30.3839L17.8882 38.586C17.8882 38.586 17.2675 39.3741 17.7041 39.6702C18.1512 39.9664 18.5877 39.4343 18.9612 39.0026Z"
                                         fill="#FCB130" />
                                 </svg>
-
                             </div>
-                            <div class="text-xl">
-                                $2996
-                            </div>
-
+                            <div class="ml-[-70px]">Singapore</div>
+                            <div class="text-xl font-bold">$2996</div>
                         </div>
-                        <div class="flex flex-row items-center justify-between p-[8px] gap-[7px]  ">
+                        <div class="flex flex-row items-center justify-between p-[8px] gap-[7px]">
                             <div class="flex flex-col flex-start p-0 gap-[2px]">
                                 <div>
-                                    <p class="text-blue-900">SIN</p>
-
+                                    <p class="text-blue-900 font-bold">SIN</p>
                                 </div>
                                 <div>
-
                                     <p>Singapore</p>
                                 </div>
                             </div>
-                            <div class="">
-                                <svg width="15" height="12" viewBox="0 0 15 12" fill="none"
+                            <div >
+                                <svg width="80" height="20" viewBox="0 0 15 12" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M4.88151 11.9823H6.19072L9.46372 6.9446L13.064 6.9446C13.6073 6.9446 14.0459 6.52271 14.0459 6.00004C14.0459 5.47737 13.6073 5.05548 13.064 5.05548L9.46372 5.05548L6.19072 0.0178223L4.88151 0.0178223L6.518 5.05551H2.91772L1.93582 3.79608H0.953922L1.60851 6.00007L0.953922 8.20403H1.93582L2.91772 6.9446H6.51803L4.88151 11.9823Z"
                                         fill="#1262AF" />
                                 </svg>
-
                             </div>
                             <div class="flex flex-col items-end p-0 gap-[2px]">
                                 <div>
-                                    <p class="text-blue-900">LAX</p>
-
+                                    <p class="text-blue-900 font-bold">LAX</p>
                                 </div>
-                                <div class="flex items-end">
-
+                                <div class="flex items-end text-nowrap">
                                     <p>Los Angeles</p>
                                 </div>
                             </div>
-
-
-
                         </div>
                         <div class="flex flex-row items-center justify-between text-stone-400 p-0 gap-[20px]">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -871,9 +688,7 @@
                                 <path d="M12.6665 12V13.3333" stroke="#7E8B97" stroke-width="1.5" stroke-linecap="round"
                                     stroke-linejoin="round" />
                             </svg>
-
-                            <p class="">Economy</p>
-
+                            <p>Economy</p>
                             <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1810_17292)">
@@ -902,9 +717,7 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-
-                            <p class="">2 Adults</p>
-
+                            <p >2 Adults</p>
                         </div>
                         <div class="line"></div>
                     </div>
@@ -948,46 +761,35 @@
                                         </linearGradient>
                                     </defs>
                                 </svg>
-
                             </div>
-                            <div class="text-xl">
-                                $1024
-                            </div>
-
+                            <div class="ml-[-70px]">American</div>
+                            <div class="text-xl font-bold">$1024</div>
                         </div>
-                        <div class="flex flex-row items-center justify-between p-[8px] gap-[7px]  ">
+                        <div class="flex flex-row items-center justify-between p-[8px] gap-[7px]">
                             <div class="flex flex-col flex-start p-0 gap-[2px]">
                                 <div>
-                                    <p class="text-blue-900">SFO</p>
-
+                                    <p class="text-blue-900 font-bold">SFO</p>
                                 </div>
-                                <div>
-
+                                <div class="text-nowrap">
                                     <p>San Franciso</p>
                                 </div>
                             </div>
-                            <div class="">
-                                <svg width="15" height="12" viewBox="0 0 15 12" fill="none"
+                            <div>
+                                <svg width="60" height="20" viewBox="0 0 15 12" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M4.88151 11.9823H6.19072L9.46372 6.9446L13.064 6.9446C13.6073 6.9446 14.0459 6.52271 14.0459 6.00004C14.0459 5.47737 13.6073 5.05548 13.064 5.05548L9.46372 5.05548L6.19072 0.0178223L4.88151 0.0178223L6.518 5.05551H2.91772L1.93582 3.79608H0.953922L1.60851 6.00007L0.953922 8.20403H1.93582L2.91772 6.9446H6.51803L4.88151 11.9823Z"
                                         fill="#1262AF" />
                                 </svg>
-
                             </div>
                             <div class="flex flex-col items-end p-0 gap-[2px]">
                                 <div>
-                                    <p class="text-blue-900">SIN</p>
-
+                                    <p class="text-blue-900 font-bold">SIN</p>
                                 </div>
                                 <div class="flex items-end">
-
                                     <p>Singapore</p>
                                 </div>
                             </div>
-
-
-
                         </div>
                         <div class="flex flex-row items-center justify-between text-stone-400 p-0 gap-[20px]">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
@@ -1005,9 +807,7 @@
                                 <path d="M12.6665 12V13.3333" stroke="#7E8B97" stroke-width="1.5" stroke-linecap="round"
                                     stroke-linejoin="round" />
                             </svg>
-
-                            <p class="">Economy</p>
-
+                            <p >Economy</p>
                             <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1810_17292)">
@@ -1036,11 +836,7 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-
-
-
-                            <p class="">1 Adults</p>
-
+                            <p >1 Adults</p>
                         </div>
                         <div class="line"></div>
                     </div>
@@ -1056,48 +852,37 @@
                                         d="M17.8187 23.917L16.3863 27.7659C15.5607 29.9842 12.0559 29.5181 11.9326 29.5181C11.6446 29.5181 11.4244 29.4869 11.2041 29.2834L11.7287 28.7123C11.8537 28.8063 12.0493 28.8611 12.2492 28.8611C12.4126 28.8611 14.2134 29.2433 14.7503 27.7659L16.1826 23.917H17.8187ZM27.9337 28.7436L27.692 29.3929H22.7639L24.802 23.917H26.4557L24.6589 28.7436H27.9337ZM20.5869 23.9307L16.2208 29.4062H17.0688L18.174 27.9199H20.1517L19.8222 29.4062H21.5641L22.9021 23.9307H20.5869ZM18.7495 27.1434L21.002 24.4476L20.3815 27.1434H18.7495Z"
                                         fill="white" />
                                 </svg>
-
                             </div>
-                            <div class="text-xl">
-                                $1128
-                            </div>
-
+                            <div class="ml-[-82px]">Japan</div>
+                            <div class="text-xl font-bold">$1128</div>
                         </div>
-                        <div class="flex flex-row items-center justify-between p-[8px] gap-[7px]  ">
+                        <div class="flex flex-row items-center justify-between p-[8px] gap-[7px]">
                             <div class="flex flex-col flex-start p-0 gap-[2px]">
                                 <div>
-                                    <p class="text-blue-900">PHX</p>
-
+                                    <p class="text-blue-900 font-bold">PHX</p>
                                 </div>
                                 <div>
-
                                     <p>Phoenix</p>
                                 </div>
                             </div>
-                            <div class="">
-                                <svg width="15" height="12" viewBox="0 0 15 12" fill="none"
+                            <div>
+                                <svg width="80" height="20" viewBox="0 0 15 12" fill="none"
                                     xmlns="http://www.w3.org/2000/svg">
                                     <path
                                         d="M4.88151 11.9823H6.19072L9.46372 6.9446L13.064 6.9446C13.6073 6.9446 14.0459 6.52271 14.0459 6.00004C14.0459 5.47737 13.6073 5.05548 13.064 5.05548L9.46372 5.05548L6.19072 0.0178223L4.88151 0.0178223L6.518 5.05551H2.91772L1.93582 3.79608H0.953922L1.60851 6.00007L0.953922 8.20403H1.93582L2.91772 6.9446H6.51803L4.88151 11.9823Z"
                                         fill="#1262AF" />
                                 </svg>
-
                             </div>
                             <div class="flex flex-col items-end p-0 gap-[2px]">
                                 <div>
-                                    <p class="text-blue-900">DXb</p>
-
+                                    <p class="text-blue-900 font-bold">DXB</p>
                                 </div>
                                 <div class="flex items-end">
-
                                     <p>Dubai</p>
                                 </div>
                             </div>
-
-
-
                         </div>
-                        <div class="flex flex-row items-center justify-between text-stone-400 p-0 gap-[20px]">
+                        <div class="flex flex-row items-center justify-between text-stone-400">
                             <svg width="16" height="16" viewBox="0 0 16 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <path
@@ -1113,9 +898,7 @@
                                 <path d="M12.6665 12V13.3333" stroke="#7E8B97" stroke-width="1.5" stroke-linecap="round"
                                     stroke-linejoin="round" />
                             </svg>
-
-                            <p class="">Economy</p>
-
+                            <p>Economy</p>
                             <svg width="17" height="16" viewBox="0 0 17 16" fill="none"
                                 xmlns="http://www.w3.org/2000/svg">
                                 <g clip-path="url(#clip0_1810_17292)">
@@ -1144,42 +927,26 @@
                                     </clipPath>
                                 </defs>
                             </svg>
-
-                            <p class="">3 Adults</p>
-
+                            <p>3 Adults</p>
                         </div>
                         <div class="line"></div>
                     </div>
                     <div class="flex items-center justify-center bg-sky-300 rounded p-2 text-center">
                         <div class="pe-2">
-                            <p class="text-white text-xl">
-
-                                show more
-                            </p>
-
+                            <p class="text-white text-xl">show more</p>
                         </div>
                         <div class="p-0 text-stone-300 text-xl">
-
-
                             <svg width="7" height="5" viewBox="0 0 7 5" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M6.4502 0.525098L3.5002 3.4751L0.550195 0.525097" stroke="#1262AF"
                                     stroke-linecap="round" />
                             </svg>
-
-
                         </div>
-
                     </div>
                 </div>
-
             </div>
         </div>
-
-
-
-
-
     </section>
+
     <footer>
         <div class="footersection">
             <div class="flex flex-col items-center p-5 md:p-10 gap-5 md:gap-8">
@@ -1188,13 +955,15 @@
                         <p>SUBSCRIBE TO OUR NEWSLETTER</p>
                     </div>
                     <div>
-                        <p class="font-bold text-2xl md:text-4xl text-center">Get weekly updates</p>
+                        <p class="font-bold text-2xl md:text-4xl text-center">
+                            Get weekly updates
+                        </p>
                     </div>
                 </div>
                 <div class="box-border flex flex-col items-start gap-4 bg-white pt-7 pb-7 px-5">
                     <p>Fill in your details to join the party!</p>
-                    <input type="text" placeholder="Your name" class="p-3 border-2 w-full max-w-xs">
-                    <input type="text" placeholder="Email Address" class="p-3 border-2 w-full max-w-xs">
+                    <input type="text" placeholder="Your name" class="p-3 border-2 w-full max-w-xs" />
+                    <input type="text" placeholder="Email Address" class="p-3 border-2 w-full max-w-xs" />
                     <button type="button"
                         class="text-white bg-[#FF9119] hover:bg-[#FF9119]/80 focus:ring-4 focus:outline-none focus:ring-[#FF9119]/50 font-medium rounded text-sm px-5 py-2.5">
                         SUBMIT
@@ -1202,15 +971,18 @@
                 </div>
             </div>
         </div>
-        <div class="flex flex-col md:flex-row flex-start color2 p-5">
+        <div class="flex flex-col md:flex-row flex-start color2 p-5 gap-[20px]">
             <div class="flex flex-col items-start gap-4">
                 <svg width="174" height="33" viewBox="0 0 174 33" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M129.851 8.44599C131.214 8.44599 132.452 8.61938 133.564 8.96617C134.676 9.31295 135.615 9.76138 136.38 10.3115C136.858 10.6463 137.235 11.017 137.51 11.4236C137.785 11.8301 137.923 12.3563 137.923 13.002V25.5581L137.917 25.8995C137.877 27.0232 137.64 28.0035 137.205 28.8406C136.727 29.7614 136.075 30.5267 135.25 31.1366C134.425 31.7464 133.456 32.1949 132.344 32.4819C131.232 32.7689 130.042 32.9124 128.775 32.9124C126.598 32.9124 124.888 32.6194 123.645 32.0334C122.401 31.4475 121.779 30.4968 121.779 29.1814C121.779 28.6313 121.893 28.147 122.12 27.7285C122.347 27.31 122.604 26.9931 122.891 26.7778C123.585 27.1605 124.368 27.4834 125.241 27.7464C126.114 28.0095 127.017 28.1411 127.95 28.1411C129.241 28.1411 130.269 27.9258 131.035 27.4953C131.8 27.0648 132.183 26.3712 132.183 25.4146V24.8406L131.91 24.9527C130.983 25.3085 129.878 25.4863 128.595 25.4863C127.519 25.4863 126.497 25.3249 125.528 25.002C124.559 24.6792 123.71 24.1769 122.981 23.4953C122.251 22.8137 121.665 21.9348 121.223 20.8585C120.781 19.7823 120.559 18.5028 120.559 17.02C120.559 15.5611 120.793 14.2935 121.259 13.2173C121.725 12.1411 122.371 11.2502 123.196 10.5446C124.021 9.83911 125.002 9.31295 126.138 8.96617C127.274 8.61938 128.512 8.44599 129.851 8.44599ZM33.2869 9.00291C35.4197 9.00291 37.165 9.48149 38.5227 10.4386C39.8804 11.3958 40.6841 13.0864 40.9338 15.5106H36.3769L36.3333 15.2424C36.2301 14.7137 36.0313 14.2309 35.737 13.7939C35.2377 13.1073 34.4626 12.7639 33.4118 12.7639C31.9136 12.7639 30.8888 13.5078 30.3374 14.9956C30.0461 15.7863 29.9004 16.8371 29.9004 18.148C29.9004 19.3964 30.0461 20.4004 30.3374 21.1599C30.868 22.5748 31.8668 23.2823 33.3337 23.2823C34.3741 23.2823 35.1128 23.0014 35.5498 22.4396C35.9867 21.8778 36.252 21.1495 36.3457 20.2548H40.887L40.8561 20.5656C40.7054 21.8037 40.2267 22.9798 39.42 24.0938C38.0259 26.0393 35.9607 27.0121 33.2245 27.0121C30.4883 27.0121 28.4751 26.2006 27.185 24.5776C25.8949 22.9546 25.2499 20.8478 25.2499 18.2572C25.2499 15.3337 25.9626 13.0604 27.3879 11.4374C28.8132 9.81441 30.7796 9.00291 33.2869 9.00291ZM74.6185 8.95609C76.0334 8.95609 77.3079 9.22139 78.4419 9.75199C79.5759 10.2826 80.5123 11.1201 81.251 12.2645C81.9168 13.2737 82.3486 14.4442 82.5462 15.7759C82.6607 16.5562 82.7075 17.6798 82.6867 19.1467H71.0447L71.0606 19.4425C71.1718 20.992 71.7023 22.0898 72.6521 22.7361C73.2659 23.1627 74.0046 23.3759 74.8681 23.3759C75.7837 23.3759 76.5276 23.1158 77.0998 22.5956C77.4119 22.3147 77.6876 21.9246 77.9269 21.4252H82.4682L82.4345 21.6584C82.2705 22.5921 81.7563 23.5392 80.892 24.4996C79.4355 26.1538 77.3963 26.9809 74.7745 26.9809C72.6105 26.9809 70.7014 26.2838 69.0471 24.8897C67.3929 23.4956 66.5658 21.2275 66.5658 18.0855C66.5658 15.1412 67.3123 12.8836 68.8053 11.3126C70.2982 9.74158 72.236 8.95609 74.6185 8.95609ZM105.848 2.70608C106.374 2.70608 106.846 2.74195 107.265 2.8137C107.683 2.88545 108.036 3.02895 108.323 3.24419C108.61 3.45944 108.831 3.75241 108.987 4.12312C109.142 4.49382 109.22 4.97812 109.22 5.57603V26.3832L109.099 26.4048C108.843 26.4502 108.495 26.5088 108.054 26.5805C107.54 26.6642 107.019 26.7061 106.493 26.7061C105.967 26.7061 105.495 26.6702 105.076 26.5985C104.658 26.5267 104.305 26.3832 104.018 26.168C103.731 25.9527 103.51 25.6597 103.354 25.289C103.199 24.9183 103.121 24.434 103.121 23.8361V3.02895L103.242 3.00735C103.498 2.96196 103.846 2.90338 104.287 2.83164C104.801 2.74793 105.321 2.70608 105.848 2.70608ZM115.015 8.91235C115.541 8.91235 116.014 8.94823 116.432 9.01998C116.851 9.09173 117.203 9.23522 117.49 9.45047C117.777 9.66572 117.999 9.95869 118.154 10.3294C118.31 10.7001 118.387 11.1844 118.387 11.7823V26.3832L118.267 26.4048C118.011 26.4502 117.662 26.5088 117.221 26.5805C116.707 26.6642 116.187 26.7061 115.661 26.7061C115.135 26.7061 114.662 26.6702 114.244 26.5985C113.825 26.5267 113.473 26.3832 113.186 26.168C112.899 25.9527 112.677 25.6597 112.522 25.289C112.366 24.9183 112.289 24.434 112.289 23.8361V9.23522L112.409 9.21363C112.665 9.16823 113.014 9.10966 113.455 9.03791C113.969 8.95421 114.489 8.91235 115.015 8.91235ZM143.574 2.70608C144.101 2.70608 144.573 2.74195 144.991 2.8137C145.41 2.88545 145.763 3.02895 146.05 3.24419C146.337 3.45944 146.558 3.75241 146.713 4.12312C146.869 4.49382 146.947 4.97812 146.947 5.57603V9.09173L147.071 9.04604C147.378 8.93748 147.809 8.81519 148.364 8.67917C148.997 8.52371 149.697 8.44599 150.462 8.44599C152.83 8.44599 154.678 9.03791 156.005 10.2218C157.332 11.4056 157.996 13.1695 157.996 15.5133V26.3832L157.885 26.414C157.646 26.4755 157.307 26.537 156.866 26.5985C156.352 26.6702 155.82 26.7061 155.27 26.7061C154.743 26.7061 154.271 26.6702 153.852 26.5985C153.434 26.5267 153.081 26.3832 152.794 26.168C152.507 25.9527 152.286 25.6597 152.131 25.289C151.975 24.9183 151.897 24.434 151.897 23.8361V15.872L151.893 15.6509C151.858 14.7874 151.614 14.1735 151.162 13.8092C150.672 13.4146 150.068 13.2173 149.35 13.2173C148.872 13.2173 148.417 13.2771 147.987 13.3967C147.557 13.5162 147.21 13.6597 146.947 13.8272V26.3832L146.836 26.414C146.597 26.4755 146.257 26.537 145.817 26.5985C145.302 26.6702 144.77 26.7061 144.22 26.7061C143.694 26.7061 143.222 26.6702 142.803 26.5985C142.385 26.5267 142.032 26.3832 141.745 26.168C141.458 25.9527 141.237 25.6597 141.081 25.289C140.926 24.9183 140.848 24.434 140.848 23.8361V3.02895L140.968 3.00735C141.225 2.96196 141.573 2.90338 142.014 2.83164C142.528 2.74793 143.048 2.70608 143.574 2.70608ZM100.626 4.67917L100.708 4.81818C100.843 5.06233 100.965 5.36876 101.075 5.73747C101.206 6.17992 101.272 6.64031 101.272 7.11863C101.272 8.05137 101.075 8.71504 100.68 9.10966C100.285 9.50428 99.7533 9.70159 99.0836 9.70159H91.55V13.7554H99.4065L99.4997 13.8939C99.6508 14.1364 99.7812 14.437 99.8908 14.7958C100.022 15.2263 100.088 15.6807 100.088 16.159C100.088 17.0678 99.8908 17.7195 99.4962 18.1141C99.1016 18.5088 98.5694 18.7061 97.8998 18.7061H91.6217V26.2756L91.4998 26.3063C91.2377 26.3678 90.8658 26.4293 90.3841 26.4908C89.822 26.5626 89.266 26.5985 88.7159 26.5985C88.1658 26.5985 87.6815 26.5566 87.263 26.4729C86.8445 26.3892 86.4917 26.2397 86.2047 26.0245C85.9177 25.8092 85.7025 25.5103 85.559 25.1276C85.4155 24.7449 85.3437 24.2427 85.3437 23.6209V8.01549L85.3499 7.76288C85.3956 6.85306 85.6925 6.12411 86.2406 5.57603C86.8385 4.97812 87.6516 4.67917 88.68 4.67917H100.626ZM16.3082 3.44721V7.48913H4.7754V12.7795H14.8724V16.7746H4.7754V26.4191H0V3.44721H16.3082ZM22.8234 9.40866V26.4191H18.3133V9.40866H22.8234ZM47.4022 3.49403V15.8851L52.9423 9.48669H58.4512L52.5054 15.9943L58.6853 26.4191H53.3169L49.2437 19.1467L47.4022 21.0663V26.4191H43.0326V3.49403H47.4022ZM64.4827 3.416V26.4191H60.035V3.416H64.4827ZM158.328 4.53164C159.074 4.30745 160.346 4.25758 161.836 4.91629C163.339 5.58127 164.277 6.72186 164.649 8.33807L172.721 9.02409C172.821 9.02989 172.92 9.05014 173.019 9.08485C173.167 9.1369 173.247 9.21014 173.314 9.26747C173.478 9.40804 173.531 9.51643 173.609 9.71052C173.748 10.0556 173.706 10.4619 173.525 10.7404C173.233 11.1894 172.777 11.48 172.156 11.612L165.639 12.9971L166.79 18.4087C166.922 19.0299 167.213 19.43 167.663 19.609C168.113 19.788 168.696 19.8014 169.413 19.649C169.772 19.5728 170.135 19.4643 170.505 19.3233C170.875 19.1823 171.193 19.0335 171.459 18.877C171.73 19.0941 171.977 19.3475 172.201 19.637C172.425 19.9265 172.585 20.2983 172.682 20.7522C173.038 22.4304 170.397 24.0158 168.666 24.3269C167.062 24.6151 164.602 24.8544 163.195 21.1697C161.789 17.485 159.58 11.3086 157.894 6.16136C157.748 5.71717 157.658 5.28089 157.814 4.92089C157.899 4.7263 157.96 4.64231 158.328 4.53164ZM130.138 13.2173C128.966 13.2173 128.087 13.5461 127.501 14.2038C126.915 14.8615 126.622 15.8002 126.622 17.02C126.622 18.4071 126.915 19.4056 127.501 20.0155C128.087 20.6254 128.834 20.9303 129.743 20.9303C130.724 20.9303 131.501 20.7031 132.075 20.2487V13.6478L131.965 13.5904C131.806 13.5138 131.598 13.4373 131.34 13.3608C131.017 13.2651 130.616 13.2173 130.138 13.2173ZM74.6185 12.6235C73.5885 12.6235 72.79 12.946 72.2229 13.591C71.6559 14.2361 71.2996 15.11 71.1539 16.2128H78.0674C77.9945 15.0372 77.6382 14.145 76.9984 13.5364C76.3585 12.9278 75.5652 12.6235 74.6185 12.6235ZM22.8234 3.27554V7.37989H18.3133V3.27554H22.8234ZM115.338 0.912354C116.342 0.912354 117.15 1.22327 117.76 1.84509C118.369 2.46691 118.674 3.23223 118.674 4.14105C118.674 5.04987 118.369 5.81519 117.76 6.43702C117.15 7.05884 116.342 7.36975 115.338 7.36975C114.334 7.36975 113.526 7.05884 112.916 6.43702C112.307 5.81519 112.002 5.04987 112.002 4.14105C112.002 3.23223 112.307 2.46691 112.916 1.84509C113.526 1.22327 114.334 0.912354 115.338 0.912354Z"
                         fill="white" />
                 </svg>
-                <p class="text-white text-sm md:text-base">Fickle Flight is your one-stop travel portal. We offer
-                    hassle-free flight and hotel bookings. We also have all your flight needs in your online shop.</p>
+                <p class="text-white text-sm md:text-base">
+                    Fickle Flight is your one-stop travel portal. We offer hassle-free
+                    flight and hotel bookings. We also have all your flight needs in your
+                    online shop.
+                </p>
                 <div class="text-white flex space-x-4">
                     <svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
@@ -1230,7 +1002,7 @@
                 </div>
             </div>
             <div class="line"></div>
-            <div class="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-3  text-white gap-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 sm:grid-cols-3 text-white gap-4">
                 <!-- Company Section -->
                 <div class="flex flex-col">
                     <p class="mb-2 font-semibold">Company</p>
@@ -1258,45 +1030,23 @@
             </div>
         </div>
     </footer>
-
-
-
-
-
 </template>
-
 
 <style scoped>
 * {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 .banner {
-    /* Banner  Background */
-    /* box-sizing: border-box; */
-    position: relative;
-
-    height: 450px;
-    /* width: 100%; */
-    /* top: 0.4px; */
-
-    background: url('../assets/BanneBackground.png');
-
+    background: url("../assets/BanneBackground.png");
 }
 
 .banner-gradient {
     /* Banner Gradient */
-
     /* position: absolute; */
-    height: auto;
-    width: 100%;
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    background: linear-gradient(78.78deg, #114F8B -3.12%, #2A9AD7 103.77%);
-
+    background: linear-gradient(78.78deg, #114f8b -3.12%, #2a9ad7 103.77%);
 }
-
 
 .drop {
     appearance: none;
@@ -1304,30 +1054,29 @@
 
 .footersection {
     /* Subscribe section background */
-    background: url('../assets/Subscribe.png') center center / cover no-repeat;
+    background: url("../assets/Subscribe.png") center center / cover no-repeat;
     /* Ensures full background coverage */
     background-position: center;
-    padding: 20px;
+    /* padding: 20px; */
     /* Ensures padding around the content */
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
+    box-sizing: border-box; */
 }
 
 .color2 {
     /* Gradient section */
-    padding-top: 20px;
-    gap: 20px;
-    padding-right: 0;
-    background: linear-gradient(91.74deg, #0B5BA8 30.91%, #299BD8 100.98%);
-    background-size: cover;
+    /* padding-top: 20px; */
+    /* padding-right: 0; */
+    background: linear-gradient(91.74deg, #0b5ba8 30.91%, #299bd8 100.98%);
+    /* background-size: cover; */
     background-position: center;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
 }
 
 .line {
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid rgba(16, 104, 139, 0.4);
 }
 </style>
