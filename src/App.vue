@@ -9,6 +9,7 @@
 <script setup>
 import Home from './components/Home.vue'
 import Result from './components/Result.vue'
+
 </script>
 
 
